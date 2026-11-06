@@ -1,0 +1,853 @@
+{
+  "schema_version": 2,
+  "fit_code": 2116,
+  "created_at": "2026-08-26T07:48:53.308493+00:00",
+  "model_id": "SV_exp_polycon_mo",
+  "metadata": {
+    "Case_ID": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+    "Run_Label": "Purl SV_exp_polycon_mo greedy B05; add 0.75:1",
+    "Input_Config_Path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw.json",
+    "Model_ID": "SV_exp_polycon_mo",
+    "UMAT": "SV_exp_polycon_mo.f",
+    "Exp_Data": "purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+    "Exp_Data_Path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+    "Exp_Data_Type": "raw",
+    "Yarn_Type": "Tripoly",
+    "Knit": "Purl",
+    "Knit_Token": "purl",
+    "Sample_Folder": "BRT_15mm_Tri_Purl_S02",
+    "Param_File": "faser_VS_full_raw_exp.dat",
+    "Param_File_Path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Material_Parameters\\SV_exp_polycon_mo\\Purl\\faser_VS_full_raw_exp.dat",
+    "Exp_Type": [
+      "H",
+      "P"
+    ],
+    "UMAT_Stress": "Sigma",
+    "UMAT_Strain": "F",
+    "Cost_Type": "normalized",
+    "Normalized_Stress_Floor_Factor": 1.0,
+    "Min_Cost": 0.0008986079348521945,
+    "Code": 2116
+  },
+  "experiment_context": {
+    "model_id": "SV_exp_polycon_mo",
+    "exp_data": "purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+    "exp_data_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+    "exp_data_type": "raw",
+    "yarn_type": "Tripoly",
+    "knit": "Purl",
+    "knit_token": "purl",
+    "sample_folder": "BRT_15mm_Tri_Purl_S02",
+    "param_file": "faser_VS_full_raw_exp.dat",
+    "param_file_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Material_Parameters\\SV_exp_polycon_mo\\Purl\\faser_VS_full_raw_exp.dat",
+    "exp_type": [
+      "H",
+      "P"
+    ],
+    "umat_strain": "F",
+    "umat_stress": "Sigma"
+  },
+  "parameters": {
+    "mu": 0.00645485963936019,
+    "mu2": 0.004896218771704964,
+    "K_1ani1": 0.0,
+    "beta_1": 999.9999999574098,
+    "K_1ani2": 7.755356320220355e-05,
+    "gamma_1": 427.02890852896047,
+    "K_coup": 0.1892384039471661,
+    "zeta": 5,
+    "C1": 1.0,
+    "C2": 1.0,
+    "theta1": 0.0,
+    "theta2": 90.0,
+    "mu3": 0.0049762093895210115,
+    "a": 0.718751558147938,
+    "b": 0.28124844185206205
+  },
+  "parameter_specs": {
+    "mu": {
+      "type": "float",
+      "initial_guess": 0.00645485963936019,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "mu2": {
+      "type": "float",
+      "initial_guess": 0.004896218771704964,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "K_1ani1": {
+      "type": "float",
+      "initial_guess": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.5,
+      "fixed": false
+    },
+    "beta_1": {
+      "type": "float",
+      "initial_guess": 999.9999999574098,
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "fixed": false
+    },
+    "K_1ani2": {
+      "type": "float",
+      "initial_guess": 7.755356320220355e-05,
+      "minimum": 0.0,
+      "maximum": 0.1,
+      "fixed": false
+    },
+    "gamma_1": {
+      "type": "float",
+      "initial_guess": 427.02890852896047,
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "fixed": false
+    },
+    "K_coup": {
+      "type": "float",
+      "initial_guess": 0.1892384039471661,
+      "minimum": 0.0,
+      "maximum": 0.2588042636900016,
+      "fixed": false
+    },
+    "zeta": {
+      "type": "int",
+      "initial_guess": 5,
+      "minimum": 2,
+      "maximum": 15,
+      "fixed": false
+    },
+    "C1": {
+      "type": "float",
+      "initial_guess": 1.0,
+      "minimum": 1.0,
+      "maximum": 3.0,
+      "fixed": true
+    },
+    "C2": {
+      "type": "float",
+      "initial_guess": 1.0,
+      "minimum": 1.0,
+      "maximum": 3.0,
+      "fixed": true
+    },
+    "theta1": {
+      "type": "float",
+      "initial_guess": 0.0,
+      "minimum": -15.0,
+      "maximum": 15.0,
+      "fixed": true
+    },
+    "theta2": {
+      "type": "float",
+      "initial_guess": 90.0,
+      "minimum": 60.0,
+      "maximum": 120.0,
+      "fixed": true
+    },
+    "mu3": {
+      "type": "float",
+      "initial_guess": 0.0049762093895210115,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "a": {
+      "type": "float",
+      "initial_guess": 0.718751558147938,
+      "minimum": 0.01,
+      "maximum": 0.99,
+      "fixed": true
+    },
+    "b": {
+      "type": "float",
+      "initial_guess": 0.28124844185206205,
+      "minimum": 0.01,
+      "maximum": 0.99,
+      "fixed": false
+    }
+  },
+  "optimizer": {
+    "method": "separable_deterministic",
+    "algorithm": "deterministic beta/gamma grid, bounded linear profiling, and Powell refinement",
+    "grid_points_per_axis": 17,
+    "refine_each_zeta": true,
+    "refinement_max_iterations": 100,
+    "parameter_tolerance": 1e-06,
+    "cost_tolerance": 1e-10,
+    "grid_points_by_parameter": {
+      "beta_1": 17,
+      "gamma_1": 17,
+      "b": 9
+    }
+  },
+  "objective": {
+    "cost_type": "normalized",
+    "normalized_stress_floor_factor": 1.0,
+    "fit_axes": [
+      0,
+      1
+    ],
+    "raw_cost": 0.5481508402598386,
+    "mean_cost": 0.0008986079348521945,
+    "fitted_observation_count": 610
+  },
+  "run_group": "separable_batch_20260826_003701_287788_12_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+  "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+  "run_label": "Purl SV_exp_polycon_mo greedy B05; add 0.75:1",
+  "result_role": "training_optimum",
+  "model_selection": {
+    "model_label": "free_zeta",
+    "configured_predictive_structure": null,
+    "selection_basis": "SV_exp_polycon_mo greedy B05; candidate addition 0.75:1; rank by fixed all-nine pooled R2"
+  },
+  "parameter_provenance": {
+    "snapshot_schema_version": 2,
+    "bounds_source": "parameter_file",
+    "parameter_overrides": {},
+    "coupling_bound_mode": "amplitude_equalized",
+    "amplitude_ceiling": 0.1,
+    "inactive_linear_parameters": [],
+    "inactive_shape_parameters": [],
+    "shape_domains": {
+      "beta_1": {
+        "kind": "continuous_interval",
+        "minimum": 0.1,
+        "maximum": 1000.0
+      },
+      "gamma_1": {
+        "kind": "continuous_interval",
+        "minimum": 0.1,
+        "maximum": 1000.0
+      },
+      "b": {
+        "kind": "continuous_interval",
+        "minimum": 0.01,
+        "maximum": 0.99
+      },
+      "zeta": {
+        "kind": "enumerated_integer_domain",
+        "minimum": 2,
+        "maximum": 15,
+        "count": 14
+      }
+    },
+    "active_shape_domains": {
+      "beta_1": {
+        "kind": "continuous_interval",
+        "minimum": 0.1,
+        "maximum": 1000.0
+      },
+      "gamma_1": {
+        "kind": "continuous_interval",
+        "minimum": 0.1,
+        "maximum": 1000.0
+      },
+      "b": {
+        "kind": "continuous_interval",
+        "minimum": 0.01,
+        "maximum": 0.99
+      },
+      "zeta": {
+        "kind": "enumerated_integer_domain",
+        "minimum": 2,
+        "maximum": 15,
+        "count": 14
+      }
+    },
+    "fixed_parameters": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "theta1": 0.0,
+      "theta2": 90.0,
+      "a": 0.5
+    },
+    "raw_parameter_specs": {
+      "mu": {
+        "type": "float",
+        "initial_guess": 0.001,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "mu2": {
+        "type": "float",
+        "initial_guess": 0.002,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "K_1ani1": {
+        "type": "float",
+        "initial_guess": 0.0032,
+        "minimum": 0.0,
+        "maximum": 0.5,
+        "fixed": false
+      },
+      "beta_1": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 0.1,
+        "maximum": 1000.0,
+        "fixed": false
+      },
+      "K_1ani2": {
+        "type": "float",
+        "initial_guess": 0.1,
+        "minimum": 0.0,
+        "maximum": 0.1,
+        "fixed": false
+      },
+      "gamma_1": {
+        "type": "float",
+        "initial_guess": 0.2,
+        "minimum": 0.1,
+        "maximum": 1000.0,
+        "fixed": false
+      },
+      "K_coup": {
+        "type": "float",
+        "initial_guess": 5.0,
+        "minimum": 0.0,
+        "maximum": 15.0,
+        "fixed": false
+      },
+      "zeta": {
+        "type": "int",
+        "initial_guess": 5,
+        "minimum": 2,
+        "maximum": 15,
+        "fixed": false
+      },
+      "C1": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 1.0,
+        "maximum": 3.0,
+        "fixed": true
+      },
+      "C2": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 1.0,
+        "maximum": 3.0,
+        "fixed": true
+      },
+      "theta1": {
+        "type": "float",
+        "initial_guess": 0.0,
+        "minimum": -15.0,
+        "maximum": 15.0,
+        "fixed": true
+      },
+      "theta2": {
+        "type": "float",
+        "initial_guess": 90.0,
+        "minimum": 60.0,
+        "maximum": 120.0,
+        "fixed": true
+      },
+      "mu3": {
+        "type": "float",
+        "initial_guess": 0.0005,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "a": {
+        "type": "float",
+        "initial_guess": 0.5,
+        "minimum": 0.01,
+        "maximum": 0.99,
+        "fixed": true
+      },
+      "b": {
+        "type": "float",
+        "initial_guess": 0.5,
+        "minimum": 0.01,
+        "maximum": 0.99,
+        "fixed": false
+      }
+    },
+    "effective_search_parameter_specs": {
+      "mu": {
+        "type": "float",
+        "initial_guess": 0.001,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "mu2": {
+        "type": "float",
+        "initial_guess": 0.002,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "K_1ani1": {
+        "type": "float",
+        "initial_guess": 0.0032,
+        "minimum": 0.0,
+        "maximum": 0.5,
+        "fixed": false
+      },
+      "beta_1": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 0.1,
+        "maximum": 1000.0,
+        "fixed": false
+      },
+      "K_1ani2": {
+        "type": "float",
+        "initial_guess": 0.1,
+        "minimum": 0.0,
+        "maximum": 0.1,
+        "fixed": false
+      },
+      "gamma_1": {
+        "type": "float",
+        "initial_guess": 0.2,
+        "minimum": 0.1,
+        "maximum": 1000.0,
+        "fixed": false
+      },
+      "K_coup": {
+        "type": "float",
+        "initial_guess": 5.0,
+        "minimum": 0.0,
+        "maximum": 15.0,
+        "fixed": false
+      },
+      "zeta": {
+        "type": "int",
+        "initial_guess": 5,
+        "minimum": 2,
+        "maximum": 15,
+        "fixed": false
+      },
+      "C1": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 1.0,
+        "maximum": 3.0,
+        "fixed": true
+      },
+      "C2": {
+        "type": "float",
+        "initial_guess": 1.0,
+        "minimum": 1.0,
+        "maximum": 3.0,
+        "fixed": true
+      },
+      "theta1": {
+        "type": "float",
+        "initial_guess": 0.0,
+        "minimum": -15.0,
+        "maximum": 15.0,
+        "fixed": true
+      },
+      "theta2": {
+        "type": "float",
+        "initial_guess": 90.0,
+        "minimum": 60.0,
+        "maximum": 120.0,
+        "fixed": true
+      },
+      "mu3": {
+        "type": "float",
+        "initial_guess": 0.0005,
+        "minimum": 0.0,
+        "maximum": 0.05,
+        "fixed": false
+      },
+      "a": {
+        "type": "float",
+        "initial_guess": 0.5,
+        "minimum": 0.01,
+        "maximum": 0.99,
+        "fixed": true
+      },
+      "b": {
+        "type": "float",
+        "initial_guess": 0.5,
+        "minimum": 0.01,
+        "maximum": 0.99,
+        "fixed": false
+      }
+    }
+  },
+  "diagnostics": {
+    "solution": {
+      "beta_1": 999.9999999574098,
+      "gamma_1": 427.02890852896047,
+      "zeta": 5,
+      "cost": 0.5481508402598386,
+      "mean_cost": 0.0008986079348521945,
+      "linear_values": {
+        "mu": 0.00645485963936019,
+        "mu2": 0.004896218771704964,
+        "mu3": 0.0049762093895210115,
+        "K_1ani1": 0.0,
+        "K_1ani2": 7.755356320220355e-05,
+        "K_coup": 0.1892384039471661
+      },
+      "active_bounds": {
+        "mu": 0,
+        "mu2": 0,
+        "mu3": 0,
+        "K_1ani1": -1,
+        "K_1ani2": 0,
+        "K_coup": 0
+      },
+      "optimality": 3.621235256101585e-13,
+      "iterations": 2,
+      "shape_values": {
+        "beta_1": 999.9999999574098,
+        "gamma_1": 427.02890852896047,
+        "b": 0.28124844185206205,
+        "zeta": 5
+      },
+      "derived_shape_values": {
+        "a": 0.718751558147938
+      },
+      "linear_solver_backend": "bvls",
+      "constraint_margins": {
+        "4*mu*mu2-mu3^2": 0.00010165495985146731
+      },
+      "constraint_tolerances": {
+        "4*mu*mu2-mu3^2": 1.0000000000000002e-12
+      },
+      "effective_linear_upper_bounds": {
+        "mu": 0.05,
+        "mu2": 0.05,
+        "mu3": 0.05,
+        "K_1ani1": 0.5,
+        "K_1ani2": 0.1,
+        "K_coup": 0.2588042636900016
+      }
+    },
+    "direct_validation": {
+      "direct_cost": 0.5481508402598385,
+      "existing_wrapper_cost": 0.5481508402598386,
+      "profiled_cost": 0.5481508402598386,
+      "absolute_cost_difference": 1.1102230246251565e-16,
+      "existing_wrapper_cost_difference": 0.0,
+      "maximum_weighted_prediction_difference": 1.6653345369377348e-16,
+      "design_matrix_rank": 6,
+      "design_matrix_singular_values": [
+        823.0226015507776,
+        493.3599129865776,
+        196.8646514341819,
+        124.46523695834374,
+        100.26572671375482,
+        5.428405694749539
+      ]
+    },
+    "maximum_prediction_difference": 1.6653345369377348e-16,
+    "profiled_evaluations": 40461,
+    "elapsed_seconds": 211.1380539999809,
+    "coupling_upper_bounds": {
+      "2": 0.01593062239090681,
+      "3": 0.04613961227509612,
+      "4": 0.1102441060884778,
+      "5": 0.2588042636900016,
+      "6": 0.6012785001493839,
+      "7": 1.3852685720402282,
+      "8": 3.163169547031233,
+      "9": 7.120646467308942,
+      "10": 15.574739451625085,
+      "11": 33.26434299469332,
+      "12": 71.4610841970313,
+      "13": 155.15579967424145,
+      "14": 338.79719172605957,
+      "15": 743.0112062252576
+    },
+    "basis_weighted_rms": {
+      "2": 6.277218651361666,
+      "3": 2.1673350743342734,
+      "4": 0.9070779704063612,
+      "5": 0.38639239776892176,
+      "6": 0.16631228286917898,
+      "7": 0.07218816770867736,
+      "8": 0.031613860247818266,
+      "9": 0.014043668711696669,
+      "10": 0.006420653155104043,
+      "11": 0.003006222008231248,
+      "12": 0.0013993630396689992,
+      "13": 0.0006445134517043886,
+      "14": 0.00029516183263070484,
+      "15": 0.00013458747211638036
+    },
+    "run": {
+      "fixed_reference_maxima": {
+        "0": 0.05689153236715418,
+        "1": 0.038899604961045116
+      },
+      "basis_metrics": [
+        {
+          "zeta": 2,
+          "b": 0.01,
+          "a": 0.99,
+          "weighted_rms": 6.277218651361666,
+          "coupling_upper_bound": 0.01593062239090681
+        },
+        {
+          "zeta": 3,
+          "b": 0.255,
+          "a": 0.745,
+          "weighted_rms": 2.1673350743342734,
+          "coupling_upper_bound": 0.04613961227509612
+        },
+        {
+          "zeta": 4,
+          "b": 0.27214588103550835,
+          "a": 0.7278541189644916,
+          "weighted_rms": 0.9070779704063612,
+          "coupling_upper_bound": 0.1102441060884778
+        },
+        {
+          "zeta": 5,
+          "b": 0.28124844185206205,
+          "a": 0.718751558147938,
+          "weighted_rms": 0.38639239776892176,
+          "coupling_upper_bound": 0.2588042636900016
+        },
+        {
+          "zeta": 6,
+          "b": 0.2857974222413332,
+          "a": 0.7142025777586668,
+          "weighted_rms": 0.16631228286917898,
+          "coupling_upper_bound": 0.6012785001493839
+        },
+        {
+          "zeta": 7,
+          "b": 0.2905496798117325,
+          "a": 0.7094503201882675,
+          "weighted_rms": 0.07218816770867736,
+          "coupling_upper_bound": 1.3852685720402282
+        },
+        {
+          "zeta": 8,
+          "b": 0.2976652531482486,
+          "a": 0.7023347468517513,
+          "weighted_rms": 0.031613860247818266,
+          "coupling_upper_bound": 3.163169547031233
+        },
+        {
+          "zeta": 9,
+          "b": 0.31277479215973675,
+          "a": 0.6872252078402632,
+          "weighted_rms": 0.014043668711696669,
+          "coupling_upper_bound": 7.120646467308942
+        },
+        {
+          "zeta": 10,
+          "b": 0.343358636399453,
+          "a": 0.656641363600547,
+          "weighted_rms": 0.006420653155104043,
+          "coupling_upper_bound": 15.574739451625085
+        },
+        {
+          "zeta": 11,
+          "b": 0.37913091540213884,
+          "a": 0.6208690845978612,
+          "weighted_rms": 0.003006222008231248,
+          "coupling_upper_bound": 33.26434299469332
+        },
+        {
+          "zeta": 12,
+          "b": 0.4043434243363972,
+          "a": 0.5956565756636027,
+          "weighted_rms": 0.0013993630396689992,
+          "coupling_upper_bound": 71.4610841970313
+        },
+        {
+          "zeta": 13,
+          "b": 0.42101716720455296,
+          "a": 0.578982832795447,
+          "weighted_rms": 0.0006445134517043886,
+          "coupling_upper_bound": 155.15579967424145
+        },
+        {
+          "zeta": 14,
+          "b": 0.43354061210277045,
+          "a": 0.5664593878972295,
+          "weighted_rms": 0.00029516183263070484,
+          "coupling_upper_bound": 338.79719172605957
+        },
+        {
+          "zeta": 15,
+          "b": 0.44329412536144885,
+          "a": 0.5567058746385511,
+          "weighted_rms": 0.00013458747211638036,
+          "coupling_upper_bound": 743.0112062252576
+        }
+      ],
+      "coupling_profiled_evaluations": 40461,
+      "rejected_grid_evaluations": 1,
+      "rejected_grid_points": [
+        {
+          "beta_1": 177.82794100389228,
+          "gamma_1": 0.1,
+          "b": 0.5,
+          "zeta": 12,
+          "reason": "SLSQP could not find a feasible cone-constrained solution"
+        }
+      ],
+      "linear_backend_counts": {
+        "bvls": 31169,
+        "slsqp_soc": 9291
+      },
+      "minimum_constraint_margins": {
+        "4*mu*mu2-mu3^2": -1.3552527156068805e-20
+      },
+      "coupling_elapsed_seconds": 211.1380539999809,
+      "zeta_values": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "derived_parameter_relations": [
+        {
+          "target": "a",
+          "offset": 1.0,
+          "coefficients": {
+            "b": -1.0
+          }
+        }
+      ],
+      "rotated_cone_constraints": [
+        {
+          "first": "mu",
+          "second": "mu2",
+          "cross": "mu3",
+          "factor": 4.0,
+          "relative_tolerance": 1e-10
+        }
+      ]
+    }
+  },
+  "input_manifest": {
+    "schema_version": 1,
+    "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+    "run_label": "Purl SV_exp_polycon_mo greedy B05; add 0.75:1",
+    "workflow": "production",
+    "model": {
+      "model_id": "SV_exp_polycon_mo",
+      "separable_definition": "sv_exp_polycon_mo_v1",
+      "umat_source": "2_Code/SSMCCF/Material_Model/SV_exp_polycon_mo/SV_exp_polycon_mo.f"
+    },
+    "files": {
+      "material_parameters": "2_Code/SSMCCF/Inputs/Material_Parameters/SV_exp_polycon_mo/Purl/faser_VS_full_raw_exp.dat",
+      "experimental_data": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat"
+    },
+    "experiment": {
+      "data_type": "raw",
+      "experimental_types": [
+        "H",
+        "P"
+      ],
+      "yarn_type": "Tripoly",
+      "knit": "Purl",
+      "knit_token": "purl",
+      "sample_folder": "BRT_15mm_Tri_Purl_S02"
+    },
+    "umat": {
+      "types": [
+        "F",
+        "Sigma"
+      ]
+    },
+    "objective": {
+      "cost_type": "normalized",
+      "normalized_stress_floor_factor": 1.0,
+      "fit_axes": [
+        0,
+        1
+      ]
+    },
+    "parameter_policy": {
+      "bounds_source": "parameter_file",
+      "parameter_overrides": {}
+    },
+    "coupling": {
+      "bound_mode": "amplitude_equalized",
+      "amplitude_ceiling": 0.1,
+      "zeta_values": "parameter_file",
+      "selection_basis": "SV_exp_polycon_mo greedy B05; candidate addition 0.75:1; rank by fixed all-nine pooled R2"
+    },
+    "optimization": {
+      "grid_points_per_axis": 17,
+      "grid_points_by_parameter": {
+        "beta_1": 17,
+        "gamma_1": 17,
+        "b": 9
+      },
+      "refine_each_zeta": true,
+      "refinement_max_iterations": 100,
+      "parameter_tolerance": 1e-06,
+      "cost_tolerance": 1e-10
+    },
+    "outputs": {
+      "result_roles": [
+        "training_optimum"
+      ],
+      "snapshot_experimental_data": true
+    }
+  },
+  "input_files": {
+    "case_config": {
+      "source_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\case.json",
+      "sha256": "eedf44ab2e49bfd8494efe4383784f956f9fdafeb429a6c220dda791ad3c7692"
+    },
+    "material_parameters": {
+      "source_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Material_Parameters\\SV_exp_polycon_mo\\Purl\\faser_VS_full_raw_exp.dat",
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\material_parameters_source.dat",
+      "sha256": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+      "role": "source_parameter_file_before_case_overrides"
+    },
+    "effective_material_parameters": {
+      "source_path": null,
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\material_parameters.dat",
+      "sha256": "717c412be97dc7087393f62028a49529294f826e5835d3108a53a7585a1b4f88",
+      "role": "terminal_effective_parameter_specifications"
+    },
+    "material_parameter_search": {
+      "source_path": null,
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\material_parameter_search.json",
+      "sha256": "2e03d9447ae2093bd6a5ba9b14611412ae1080b44e621851ab2077e71f679af7",
+      "role": "authoritative_merged_search_configuration"
+    },
+    "experimental_data": {
+      "source_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\experimental_data.dat",
+      "sha256": "a6954e1a7c3d0ec598922a8759ead3143b47049a4f466207eb90f2a1398d121d"
+    },
+    "umat_source": {
+      "source_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Material_Model\\SV_exp_polycon_mo\\SV_exp_polycon_mo.f",
+      "snapshot_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2116\\inputs\\umat_source.f",
+      "sha256": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+    }
+  },
+  "provenance": {
+    "source_fit_code": null,
+    "theta_policy": "theta1=0 and theta2=90, both fixed"
+  }
+}

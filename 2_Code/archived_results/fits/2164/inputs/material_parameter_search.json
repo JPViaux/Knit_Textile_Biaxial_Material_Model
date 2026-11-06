@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "description": "Authoritative material-parameter search configuration after case overrides; certified exponent-dependent bounds are included below.",
+  "effective_parameter_specs_after_overrides": {
+    "mu": {
+      "type": "float",
+      "initial_guess": 0.001,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "mu2": {
+      "type": "float",
+      "initial_guess": 0.002,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "K_1ani1": {
+      "type": "float",
+      "initial_guess": 0.0032,
+      "minimum": 0.0,
+      "maximum": 0.5,
+      "fixed": false
+    },
+    "beta_1": {
+      "type": "float",
+      "initial_guess": 1.0,
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "fixed": false
+    },
+    "K_1ani2": {
+      "type": "float",
+      "initial_guess": 0.1,
+      "minimum": 0.0,
+      "maximum": 0.1,
+      "fixed": false
+    },
+    "gamma_1": {
+      "type": "float",
+      "initial_guess": 0.2,
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "fixed": false
+    },
+    "K_coup": {
+      "type": "float",
+      "initial_guess": 5.0,
+      "minimum": 0.0,
+      "maximum": 15.0,
+      "fixed": false
+    },
+    "zeta": {
+      "type": "int",
+      "initial_guess": 5,
+      "minimum": 3,
+      "maximum": 15,
+      "fixed": false
+    },
+    "C1": {
+      "type": "float",
+      "initial_guess": 1.0,
+      "minimum": 1.0,
+      "maximum": 3.0,
+      "fixed": true
+    },
+    "C2": {
+      "type": "float",
+      "initial_guess": 1.0,
+      "minimum": 1.0,
+      "maximum": 3.0,
+      "fixed": true
+    },
+    "theta1": {
+      "type": "float",
+      "initial_guess": 0.0,
+      "minimum": -15.0,
+      "maximum": 15.0,
+      "fixed": true
+    },
+    "theta2": {
+      "type": "float",
+      "initial_guess": 90.0,
+      "minimum": 60.0,
+      "maximum": 120.0,
+      "fixed": true
+    },
+    "mu3": {
+      "type": "float",
+      "initial_guess": 0.0005,
+      "minimum": 0.0,
+      "maximum": 0.05,
+      "fixed": false
+    },
+    "a": {
+      "type": "float",
+      "initial_guess": 0.5,
+      "minimum": 0.01,
+      "maximum": 0.99,
+      "fixed": true
+    },
+    "b": {
+      "type": "float",
+      "initial_guess": 0.5,
+      "minimum": 0.01,
+      "maximum": 0.99,
+      "fixed": false
+    }
+  },
+  "shape_domains": {
+    "beta_1": {
+      "kind": "continuous_interval",
+      "minimum": 0.1,
+      "maximum": 1000.0
+    },
+    "gamma_1": {
+      "kind": "continuous_interval",
+      "minimum": 0.1,
+      "maximum": 1000.0
+    },
+    "b": {
+      "kind": "continuous_interval",
+      "minimum": 0.01,
+      "maximum": 0.99
+    },
+    "zeta": {
+      "kind": "enumerated_integer_domain",
+      "minimum": 3,
+      "maximum": 15,
+      "count": 13
+    }
+  },
+  "active_shape_domains": {
+    "beta_1": {
+      "kind": "continuous_interval",
+      "minimum": 0.1,
+      "maximum": 1000.0
+    },
+    "gamma_1": {
+      "kind": "continuous_interval",
+      "minimum": 0.1,
+      "maximum": 1000.0
+    },
+    "b": {
+      "kind": "continuous_interval",
+      "minimum": 0.01,
+      "maximum": 0.99
+    },
+    "zeta": {
+      "kind": "enumerated_integer_domain",
+      "minimum": 3,
+      "maximum": 15,
+      "count": 13
+    }
+  },
+  "fixed_parameters": {
+    "C1": 1.0,
+    "C2": 1.0,
+    "theta1": 0.0,
+    "theta2": 90.0,
+    "a": 0.5
+  },
+  "inactive_linear_parameters": [],
+  "inactive_shape_parameters": [],
+  "parameter_overrides": {
+    "zeta": {
+      "minimum": 3
+    }
+  },
+  "certified_study": null,
+  "algorithm": null,
+  "effective_raw_upper_bounds": {}
+}

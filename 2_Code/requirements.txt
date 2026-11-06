@@ -1,0 +1,6 @@
+# Python packages only; example: use environment.yml for GNU Fortran and Ninja.
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9
+openpyxl==3.1.5
+meson==1.10.1

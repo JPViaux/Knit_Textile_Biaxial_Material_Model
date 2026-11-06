@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "study_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1",
+  "batch": "B09",
+  "case_count": 4,
+  "case_files": [
+    "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b09_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+    "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b09_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw.json",
+    "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b09_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw.json",
+    "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b09_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw.json"
+  ]
+}

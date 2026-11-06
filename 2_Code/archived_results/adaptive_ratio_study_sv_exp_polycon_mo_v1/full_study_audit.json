@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "study_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1",
+  "created_at": "2026-08-26T09:11:56.745423+00:00",
+  "status": "passed",
+  "candidate_count": 180,
+  "selected_record_count": 36,
+  "per_ratio_row_count": 1620,
+  "parameter_record_count": 2700,
+  "unique_fit_code_count": 180,
+  "fit_code_minimum": 1984,
+  "fit_code_maximum": 2163,
+  "maximum_prediction_difference": 3.3306690738754696e-16,
+  "minimum_cone_margin_plus_tolerance": 9.999999457898916e-13,
+  "maximum_a_plus_b_error": 0.0,
+  "linear_backend_counts": {
+    "bvls": 124,
+    "slsqp_soc": 56
+  },
+  "global_append_receipt_count": 9,
+  "global_workbook": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\global_error_summary.xlsx",
+  "global_workbook_sha256": "eaddb0ddcf18c2ebcdb3b3238cbb4d456bd9f4e4f5d164565985057393b09bef"
+}

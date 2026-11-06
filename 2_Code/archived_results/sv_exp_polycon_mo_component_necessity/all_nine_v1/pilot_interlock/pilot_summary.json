@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "study": "SV_exp_polycon_mo all-nine component necessity",
+  "stage": "low_resolution_pilot",
+  "classification_scope": "provisional all-nine calibration support",
+  "completed_at": "2026-08-26T20:49:31.247575+00:00",
+  "input_validation": "passed",
+  "candidate_count": 39,
+  "normalization_reference_maxima": {
+    "0": 0.0612964846411627,
+    "1": 0.027744743161783946
+  },
+  "primary_winner": {
+    "schema_version": 1,
+    "study_stage": "low_resolution_pilot",
+    "completed_at": "2026-08-26T20:47:21.124347+00:00",
+    "mask": 63,
+    "candidate_id": "M63",
+    "components": [
+      "linear_course",
+      "linear_wale",
+      "linear_coupling",
+      "nonlinear_course",
+      "nonlinear_wale",
+      "nonlinear_coupling"
+    ],
+    "linear_parameters": [
+      "mu",
+      "mu2",
+      "mu3",
+      "K_1ani1",
+      "K_1ani2",
+      "K_coup"
+    ],
+    "continuous_shapes": [
+      "beta_1",
+      "gamma_1",
+      "b"
+    ],
+    "integer_shapes": [
+      "zeta"
+    ],
+    "effective_parameter_count": 10,
+    "parameters": {
+      "mu": 0.018041376285007044,
+      "mu2": 0.0033598392481957225,
+      "K_1ani1": 0.0019616858622982652,
+      "beta_1": 100.0,
+      "K_1ani2": 0.0014887137881996705,
+      "gamma_1": 100.0,
+      "K_coup": 0.45588611982842786,
+      "zeta": 6,
+      "C1": 1.0,
+      "C2": 1.0,
+      "theta1": 0.0,
+      "theta2": 90.0,
+      "mu3": 0.011155088865868084,
+      "a": 0.5,
+      "b": 0.5
+    },
+    "primary_cost": 0.0008569460612993587,
+    "equal_ratio_cost": 0.0008569460612993592,
+    "per_ratio_costs": {
+      "0.25:1": 0.0003394662693074932,
+      "0.5:1": 0.00019035550685322846,
+      "0.75:1": 0.00047904132079131775,
+      "0:1": 0.0007640280082237464,
+      "1:0": 0.0020976447676418174,
+      "1:0.25": 0.0006447796417511137,
+      "1:0.5": 0.0002659819818079597,
+      "1:0.75": 0.00042222232304106686,
+      "1:1": 0.0025089947322764878
+    },
+    "raw_cost": 0.9409267753066959,
+    "observation_count": 1098,
+    "profiled_evaluations": 300,
+    "elapsed_seconds": 1.8241674000164494,
+    "linear_solver_backends": {
+      "bvls": 222,
+      "slsqp_soc": 78
+    },
+    "minimum_constraint_margins": {
+      "4*mu*mu2-mu3^2": -2.710505431213761e-20
+    },
+    "rejected_cone_evaluations": 0,
+    "active_bounds": {
+      "mu": 0,
+      "mu2": 0,
+      "mu3": 0,
+      "K_1ani1": 0,
+      "K_1ani2": 0,
+      "K_coup": 0
+    },
+    "effective_linear_upper_bounds": {
+      "mu": 0.05,
+      "mu2": 0.05,
+      "mu3": 0.05,
+      "K_1ani1": 0.5,
+      "K_1ani2": 0.1,
+      "K_coup": 1.3260793476946566
+    },
+    "design_rank": 6,
+    "design_condition_number": 680.7290224186667,
+    "direct_cost_difference": 2.220446049250313e-16
+  },
+  "selected_lowest_complexity_adequate": {
+    "schema_version": 1,
+    "study_stage": "low_resolution_pilot",
+    "completed_at": "2026-08-26T20:47:21.124347+00:00",
+    "mask": 63,
+    "candidate_id": "M63",
+    "components": [
+      "linear_course",
+      "linear_wale",
+      "linear_coupling",
+      "nonlinear_course",
+      "nonlinear_wale",
+      "nonlinear_coupling"
+    ],
+    "linear_parameters": [
+      "mu",
+      "mu2",
+      "mu3",
+      "K_1ani1",
+      "K_1ani2",
+      "K_coup"
+    ],
+    "continuous_shapes": [
+      "beta_1",
+      "gamma_1",
+      "b"
+    ],
+    "integer_shapes": [
+      "zeta"
+    ],
+    "effective_parameter_count": 10,
+    "parameters": {
+      "mu": 0.018041376285007044,
+      "mu2": 0.0033598392481957225,
+      "K_1ani1": 0.0019616858622982652,
+      "beta_1": 100.0,
+      "K_1ani2": 0.0014887137881996705,
+      "gamma_1": 100.0,
+      "K_coup": 0.45588611982842786,
+      "zeta": 6,
+      "C1": 1.0,
+      "C2": 1.0,
+      "theta1": 0.0,
+      "theta2": 90.0,
+      "mu3": 0.011155088865868084,
+      "a": 0.5,
+      "b": 0.5
+    },
+    "primary_cost": 0.0008569460612993587,
+    "equal_ratio_cost": 0.0008569460612993592,
+    "per_ratio_costs": {
+      "0.25:1": 0.0003394662693074932,
+      "0.5:1": 0.00019035550685322846,
+      "0.75:1": 0.00047904132079131775,
+      "0:1": 0.0007640280082237464,
+      "1:0": 0.0020976447676418174,
+      "1:0.25": 0.0006447796417511137,
+      "1:0.5": 0.0002659819818079597,
+      "1:0.75": 0.00042222232304106686,
+      "1:1": 0.0025089947322764878
+    },
+    "raw_cost": 0.9409267753066959,
+    "observation_count": 1098,
+    "profiled_evaluations": 300,
+    "elapsed_seconds": 1.8241674000164494,
+    "linear_solver_backends": {
+      "bvls": 222,
+      "slsqp_soc": 78
+    },
+    "minimum_constraint_margins": {
+      "4*mu*mu2-mu3^2": -2.710505431213761e-20
+    },
+    "rejected_cone_evaluations": 0,
+    "active_bounds": {
+      "mu": 0,
+      "mu2": 0,
+      "mu3": 0,
+      "K_1ani1": 0,
+      "K_1ani2": 0,
+      "K_coup": 0
+    },
+    "effective_linear_upper_bounds": {
+      "mu": 0.05,
+      "mu2": 0.05,
+      "mu3": 0.05,
+      "K_1ani1": 0.5,
+      "K_1ani2": 0.1,
+      "K_coup": 1.3260793476946566
+    },
+    "design_rank": 6,
+    "design_condition_number": 680.7290224186667,
+    "direct_cost_difference": 2.220446049250313e-16
+  },
+  "full_model": {
+    "schema_version": 1,
+    "study_stage": "low_resolution_pilot",
+    "completed_at": "2026-08-26T20:47:21.124347+00:00",
+    "mask": 63,
+    "candidate_id": "M63",
+    "components": [
+      "linear_course",
+      "linear_wale",
+      "linear_coupling",
+      "nonlinear_course",
+      "nonlinear_wale",
+      "nonlinear_coupling"
+    ],
+    "linear_parameters": [
+      "mu",
+      "mu2",
+      "mu3",
+      "K_1ani1",
+      "K_1ani2",
+      "K_coup"
+    ],
+    "continuous_shapes": [
+      "beta_1",
+      "gamma_1",
+      "b"
+    ],
+    "integer_shapes": [
+      "zeta"
+    ],
+    "effective_parameter_count": 10,
+    "parameters": {
+      "mu": 0.018041376285007044,
+      "mu2": 0.0033598392481957225,
+      "K_1ani1": 0.0019616858622982652,
+      "beta_1": 100.0,
+      "K_1ani2": 0.0014887137881996705,
+      "gamma_1": 100.0,
+      "K_coup": 0.45588611982842786,
+      "zeta": 6,
+      "C1": 1.0,
+      "C2": 1.0,
+      "theta1": 0.0,
+      "theta2": 90.0,
+      "mu3": 0.011155088865868084,
+      "a": 0.5,
+      "b": 0.5
+    },
+    "primary_cost": 0.0008569460612993587,
+    "equal_ratio_cost": 0.0008569460612993592,
+    "per_ratio_costs": {
+      "0.25:1": 0.0003394662693074932,
+      "0.5:1": 0.00019035550685322846,
+      "0.75:1": 0.00047904132079131775,
+      "0:1": 0.0007640280082237464,
+      "1:0": 0.0020976447676418174,
+      "1:0.25": 0.0006447796417511137,
+      "1:0.5": 0.0002659819818079597,
+      "1:0.75": 0.00042222232304106686,
+      "1:1": 0.0025089947322764878
+    },
+    "raw_cost": 0.9409267753066959,
+    "observation_count": 1098,
+    "profiled_evaluations": 300,
+    "elapsed_seconds": 1.8241674000164494,
+    "linear_solver_backends": {
+      "bvls": 222,
+      "slsqp_soc": 78
+    },
+    "minimum_constraint_margins": {
+      "4*mu*mu2-mu3^2": -2.710505431213761e-20
+    },
+    "rejected_cone_evaluations": 0,
+    "active_bounds": {
+      "mu": 0,
+      "mu2": 0,
+      "mu3": 0,
+      "K_1ani1": 0,
+      "K_1ani2": 0,
+      "K_coup": 0
+    },
+    "effective_linear_upper_bounds": {
+      "mu": 0.05,
+      "mu2": 0.05,
+      "mu3": 0.05,
+      "K_1ani1": 0.5,
+      "K_1ani2": 0.1,
+      "K_coup": 1.3260793476946566
+    },
+    "design_rank": 6,
+    "design_condition_number": 680.7290224186667,
+    "direct_cost_difference": 2.220446049250313e-16
+  },
+  "adequate_candidate_ids": [
+    "M63"
+  ],
+  "equal_ratio_adequate_candidate_ids": [
+    "M63"
+  ],
+  "component_classifications": [
+    {
+      "component": "linear_course",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.002222418953565257,
+      "best_without_penalty_percent": 159.34175485858205
+    },
+    {
+      "component": "linear_wale",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.0023606331637860663,
+      "best_without_penalty_percent": 175.4704491210003
+    },
+    {
+      "component": "linear_coupling",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.0021769271632667165,
+      "best_without_penalty_percent": 154.0331604962294
+    },
+    {
+      "component": "nonlinear_course",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.0015884845875196467,
+      "best_without_penalty_percent": 85.3657609571226
+    },
+    {
+      "component": "nonlinear_wale",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.0011342837734748192,
+      "best_without_penalty_percent": 32.363496922425014
+    },
+    {
+      "component": "nonlinear_coupling",
+      "primary_classification": "Required",
+      "equal_ratio_classification": "Required",
+      "weighting_sensitive": false,
+      "best_without_cost": 0.0014488564920464555,
+      "best_without_penalty_percent": 69.07207553408936
+    }
+  ],
+  "timing": {
+    "candidate_search_seconds": 26.263057500007562,
+    "profiled_evaluations": 2339,
+    "seconds_per_profile": 0.01122832727661717,
+    "production_grid_profiles_per_knit": 205739,
+    "four_knit_grid_only_scale_factor": 351.84095767421974,
+    "estimated_four_knit_full_grid_seconds": 9240.41930225576,
+    "note": "Grid-only estimate excludes Powell refinement, stability, workbook, figures, and report rendering."
+  },
+  "compiled_umat_validation": {
+    "scope": [
+      "M63",
+      "M63"
+    ],
+    "status": "passed",
+    "maximum_raw_cost_difference": 2.220446049250313e-16
+  }
+}

@@ -1,0 +1,1230 @@
+{
+  "schema_version": 1,
+  "study_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1",
+  "created_at": "2026-08-26T07:36:42.194726+00:00",
+  "batch": "B05",
+  "step_number": 5,
+  "candidate_count": 20,
+  "candidates": [
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Interlock",
+      "sample_folder": "interlock_s06",
+      "added_ratio": "0:1",
+      "training_ratios": [
+        "0.75:1",
+        "0.5:1",
+        "1:0.5",
+        "1:0.25",
+        "0:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Interlock\\BRT_15mm_Tri_Int_S06\\Compiled_Data\\interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "45ea1b606144ad9c001dfd34883afc0f5c0b8ee713c51dc04048386d5d6af947",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "2864ddcc94e060f0cb2c0e3b976caea97f56c427d619b86a2b2fb41f90a0c91b",
+      "sources": [
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "46cc2753d018c091e1c558298b05acb777696b1426de836c74b8b35ceb7c2866"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "7608c72ab28866838eaa1ac1e626a3a011a851c9bb6912ea3c07a702f1fdfd71"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "d8952e1e5fad74b378df46e940877e30b86669e40bc2669ae2faef7f624320be"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "3ebdd71c849797e92dbd42d88a325c8769bf21b0727af35b5b0e2464fb9af4c7"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "9fd5eb9620f2d6b74603f6809dfcf306df115184934568c5f2c28eb8de567f56"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Interlock",
+      "sample_folder": "interlock_s06",
+      "added_ratio": "0.25:1",
+      "training_ratios": [
+        "0.75:1",
+        "0.5:1",
+        "1:0.5",
+        "1:0.25",
+        "0.25:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Interlock\\BRT_15mm_Tri_Int_S06\\Compiled_Data\\interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p25to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p25to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "35fb86aae1f333edbc87bd5d6d59ccc1442b14407e42ade62ddf6c9b47818c2c",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "5a408dfb57a15949c20fafb4c9bc568db91f06b5e23afb6b2b1e9c15ae1235c7",
+      "sources": [
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "46cc2753d018c091e1c558298b05acb777696b1426de836c74b8b35ceb7c2866"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "7608c72ab28866838eaa1ac1e626a3a011a851c9bb6912ea3c07a702f1fdfd71"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "d8952e1e5fad74b378df46e940877e30b86669e40bc2669ae2faef7f624320be"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "3ebdd71c849797e92dbd42d88a325c8769bf21b0727af35b5b0e2464fb9af4c7"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "fa82efc793b916324ae72455776db36ff214f96ebd4aef1084ba85e0395cf27a"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Interlock",
+      "sample_folder": "interlock_s06",
+      "added_ratio": "1:0",
+      "training_ratios": [
+        "0.75:1",
+        "0.5:1",
+        "1:0.5",
+        "1:0.25",
+        "1:0"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Interlock\\BRT_15mm_Tri_Int_S06\\Compiled_Data\\interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "57cc09517e023fcf115787fcf24523f65556ce0bbf5295c90cc8bfacab4d9a4d",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "715a6af10d269b29da12bd4f5838816d9f59a538d3e8fdc87f3d73731d1300dd",
+      "sources": [
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "46cc2753d018c091e1c558298b05acb777696b1426de836c74b8b35ceb7c2866"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "7608c72ab28866838eaa1ac1e626a3a011a851c9bb6912ea3c07a702f1fdfd71"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "d8952e1e5fad74b378df46e940877e30b86669e40bc2669ae2faef7f624320be"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "3ebdd71c849797e92dbd42d88a325c8769bf21b0727af35b5b0e2464fb9af4c7"
+        },
+        {
+          "ratio": "1:0",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0.dat",
+          "row_count": 61,
+          "sha256": "ae39f68da98d3cbf21549800fe67f917218a1b420da01cc7a9e37d23b4c20a89"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Interlock",
+      "sample_folder": "interlock_s06",
+      "added_ratio": "1:0.75",
+      "training_ratios": [
+        "0.75:1",
+        "0.5:1",
+        "1:0.5",
+        "1:0.25",
+        "1:0.75"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Interlock\\BRT_15mm_Tri_Int_S06\\Compiled_Data\\interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "c29ff52f56ed5daa744c4792a559d06eb536a8ff84c6fe21dd6b31921de7474f",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "7ad23ee012c559d5b1ab403947af5b0efa415ddd4d310381b98b95e3fc03f353",
+      "sources": [
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "46cc2753d018c091e1c558298b05acb777696b1426de836c74b8b35ceb7c2866"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "7608c72ab28866838eaa1ac1e626a3a011a851c9bb6912ea3c07a702f1fdfd71"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "d8952e1e5fad74b378df46e940877e30b86669e40bc2669ae2faef7f624320be"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "3ebdd71c849797e92dbd42d88a325c8769bf21b0727af35b5b0e2464fb9af4c7"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "02d062c03d2b9bff61e86d7fabc9ade4c3059c4c855b92bf5c37e9ad98cdf23d"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Interlock",
+      "sample_folder": "interlock_s06",
+      "added_ratio": "1:1",
+      "training_ratios": [
+        "0.75:1",
+        "0.5:1",
+        "1:0.5",
+        "1:0.25",
+        "1:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Interlock\\BRT_15mm_Tri_Int_S06\\Compiled_Data\\interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "c006ae3e872e3ed1c97f531f86d12b3808b3be0654f90c7b39223762bf605a0a",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "fbb0850a523587084d5b14678714a2bf3e9735f6381c42bc1a64739fbf56c5ff",
+      "sources": [
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "46cc2753d018c091e1c558298b05acb777696b1426de836c74b8b35ceb7c2866"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "7608c72ab28866838eaa1ac1e626a3a011a851c9bb6912ea3c07a702f1fdfd71"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "d8952e1e5fad74b378df46e940877e30b86669e40bc2669ae2faef7f624320be"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "3ebdd71c849797e92dbd42d88a325c8769bf21b0727af35b5b0e2464fb9af4c7"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "dbde72afe85b66175788b03aad0401283a2f0b0be4959bd2503ae8f5cd9db606"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Rib",
+      "sample_folder": "rib_s03",
+      "added_ratio": "0:1",
+      "training_ratios": [
+        "1:1",
+        "0.5:1",
+        "1:0.75",
+        "1:0.5",
+        "0:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Rib\\BRT_15mm_Tri_Rib_S03\\Compiled_Data\\rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "f022b0acf3edde23156926f19552ce980679c92c901783f2efe4e5e9a52b9e65",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "ece714d1c256d28a91f8b4934d8f5687d69e2b8a2a2b63b041725618dced256d",
+      "sources": [
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "679c0f14869059de6030b49506ea8ec5d9f4eeee8cb8644ae91b3d0cd5b1b613"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "259cb8bde456237bfb7297615d39c252dbf8aad2bce42c6b6c242356bd2de7d8"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "f0aca23d2e80297d5e1496b8173bcb7c0d6a341d19c3d95853da0d2b76d557cd"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "c18a485f46e25f6ce25fc5a64102d18d33021131ab8cdf3cc4cd8c259f7068a4"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "b2ff9535df6d3c2365b70a30a08b56c478a473c004271a83a3f5df0a7e736d0c"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Rib",
+      "sample_folder": "rib_s03",
+      "added_ratio": "0.25:1",
+      "training_ratios": [
+        "1:1",
+        "0.5:1",
+        "1:0.75",
+        "1:0.5",
+        "0.25:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Rib\\BRT_15mm_Tri_Rib_S03\\Compiled_Data\\rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p25to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p25to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "5fc14fbe849f87ba56eed3c76534696e67c7f412ee85d5d21604aaee526faac5",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "72cc5f585bbe773260199ba8413f549f3848b494871f4a88730357839b7a0ca5",
+      "sources": [
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "679c0f14869059de6030b49506ea8ec5d9f4eeee8cb8644ae91b3d0cd5b1b613"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "259cb8bde456237bfb7297615d39c252dbf8aad2bce42c6b6c242356bd2de7d8"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "f0aca23d2e80297d5e1496b8173bcb7c0d6a341d19c3d95853da0d2b76d557cd"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "c18a485f46e25f6ce25fc5a64102d18d33021131ab8cdf3cc4cd8c259f7068a4"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "a87b7fa7faacc5588c21edf68194422430f9fe6cf45aaa93a2e5f047f109149f"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Rib",
+      "sample_folder": "rib_s03",
+      "added_ratio": "0.75:1",
+      "training_ratios": [
+        "1:1",
+        "0.5:1",
+        "1:0.75",
+        "1:0.5",
+        "0.75:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Rib\\BRT_15mm_Tri_Rib_S03\\Compiled_Data\\rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "2fc82dd8de61f2eea3487cd9d2ed6c1d08e55a4da99b904cc67044b583ce5e2e",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "ed4438b7cd4dce506a1cc45fd6727af261ad6946b6201676f174f8feb8d33233",
+      "sources": [
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "679c0f14869059de6030b49506ea8ec5d9f4eeee8cb8644ae91b3d0cd5b1b613"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "259cb8bde456237bfb7297615d39c252dbf8aad2bce42c6b6c242356bd2de7d8"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "f0aca23d2e80297d5e1496b8173bcb7c0d6a341d19c3d95853da0d2b76d557cd"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "c18a485f46e25f6ce25fc5a64102d18d33021131ab8cdf3cc4cd8c259f7068a4"
+        },
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "afa313cc23833b676f4b84f3bcf20d596048050e055b2d8e8193dd719a19bd9e"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Rib",
+      "sample_folder": "rib_s03",
+      "added_ratio": "1:0",
+      "training_ratios": [
+        "1:1",
+        "0.5:1",
+        "1:0.75",
+        "1:0.5",
+        "1:0"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Rib\\BRT_15mm_Tri_Rib_S03\\Compiled_Data\\rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_rib_s03_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_rib_s03_raw.json",
+      "row_count": 306,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "f7418db0ab1ce0c214a9644f83cea299999ea672987d7852e85555fee80db771",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "01874aa0dfffa0031fc2c35c505f5debb5ed665cd74d6ef11d60d3cb1320f3f0",
+      "sources": [
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "679c0f14869059de6030b49506ea8ec5d9f4eeee8cb8644ae91b3d0cd5b1b613"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "259cb8bde456237bfb7297615d39c252dbf8aad2bce42c6b6c242356bd2de7d8"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "f0aca23d2e80297d5e1496b8173bcb7c0d6a341d19c3d95853da0d2b76d557cd"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "c18a485f46e25f6ce25fc5a64102d18d33021131ab8cdf3cc4cd8c259f7068a4"
+        },
+        {
+          "ratio": "1:0",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0.dat",
+          "row_count": 62,
+          "sha256": "8637ad73a4812c1b99e56fc84c4453a9648717732b3bdfd6af6b512025b06350"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Rib",
+      "sample_folder": "rib_s03",
+      "added_ratio": "1:0.25",
+      "training_ratios": [
+        "1:1",
+        "0.5:1",
+        "1:0.75",
+        "1:0.5",
+        "1:0.25"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Rib\\BRT_15mm_Tri_Rib_S03\\Compiled_Data\\rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p25.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/rib_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p25.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "58fa10080a3136023c7ec481b2f41c005240573615750a43397fa95ea9d53778",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "df173bc2d03c7415ac09f186e71d77722aa41ca4a1c31f23185a267e194144e4",
+      "sources": [
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "679c0f14869059de6030b49506ea8ec5d9f4eeee8cb8644ae91b3d0cd5b1b613"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "259cb8bde456237bfb7297615d39c252dbf8aad2bce42c6b6c242356bd2de7d8"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "f0aca23d2e80297d5e1496b8173bcb7c0d6a341d19c3d95853da0d2b76d557cd"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "c18a485f46e25f6ce25fc5a64102d18d33021131ab8cdf3cc4cd8c259f7068a4"
+        },
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Rib/BRT_15mm_Tri_Rib_S03/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "cd4229b92533922ba833af9234e04d22d3e5bedeaf0f97c94b6e88dcd63649ae"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p5to1_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Purl",
+      "sample_folder": "purl_s02",
+      "added_ratio": "0.5:1",
+      "training_ratios": [
+        "1:0.25",
+        "1:1",
+        "0:1",
+        "0.25:1",
+        "0.5:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p5to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p5to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p5to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p5to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "f2648d0f5faa776184f56888eb53ee5a0143dfb32fd10cd675c914d11f73ff02",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "1b1adff96d6e2b35721ab761ceaf59923fd4b8b4bb3f81ccc96c3572b8ec81ce",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "055c34bb027e7cab5d32dd35f3199330428ff3da8e1b4f7d081c6fdf4b590a9c"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "a54086ebbcafc88d5f3673b474e49ce4f8fc9fa001aa12b84e5256aa74cb0800"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "3a50f5497b57fccd0b18bb4e100e80fdfbb8f2f967ec2e78364de272c45e2347"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "ebafb1db746508b91face1d7f7466fccb3a12160c99e8334a88b7f19066c4846"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "baf95077a96ecb0b56eca5cc7dfa28f36f035e48484fee5d087f43c65be7ec49"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Purl",
+      "sample_folder": "purl_s02",
+      "added_ratio": "0.75:1",
+      "training_ratios": [
+        "1:0.25",
+        "1:1",
+        "0:1",
+        "0.25:1",
+        "0.75:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "a6954e1a7c3d0ec598922a8759ead3143b47049a4f466207eb90f2a1398d121d",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "3b53a8d8f9a6534957bb311c537f791ea6f66e846f418ec1921cd8b82a999079",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "055c34bb027e7cab5d32dd35f3199330428ff3da8e1b4f7d081c6fdf4b590a9c"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "a54086ebbcafc88d5f3673b474e49ce4f8fc9fa001aa12b84e5256aa74cb0800"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "3a50f5497b57fccd0b18bb4e100e80fdfbb8f2f967ec2e78364de272c45e2347"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "ebafb1db746508b91face1d7f7466fccb3a12160c99e8334a88b7f19066c4846"
+        },
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "4ebcf5393ba3b7daf9ad0a0e453367f74e0b21c43107c0cfa66769da1b3c0543"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Purl",
+      "sample_folder": "purl_s02",
+      "added_ratio": "1:0",
+      "training_ratios": [
+        "1:0.25",
+        "1:1",
+        "0:1",
+        "0.25:1",
+        "1:0"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_purl_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_purl_s02_raw.json",
+      "row_count": 306,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "af35e9daa92232a48ba2b485cdbd589e5ee70afcd1b46463773e31d82be63728",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "b56de300d1170779e174cb3e9e064ce1d9ed94b40b768fbc4837c24634418c72",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "055c34bb027e7cab5d32dd35f3199330428ff3da8e1b4f7d081c6fdf4b590a9c"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "a54086ebbcafc88d5f3673b474e49ce4f8fc9fa001aa12b84e5256aa74cb0800"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "3a50f5497b57fccd0b18bb4e100e80fdfbb8f2f967ec2e78364de272c45e2347"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "ebafb1db746508b91face1d7f7466fccb3a12160c99e8334a88b7f19066c4846"
+        },
+        {
+          "ratio": "1:0",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0.dat",
+          "row_count": 62,
+          "sha256": "b5513c92d82eae58f25e439710eddbda6c6912094e4fa36c2036aa0929b69912"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Purl",
+      "sample_folder": "purl_s02",
+      "added_ratio": "1:0.5",
+      "training_ratios": [
+        "1:0.25",
+        "1:1",
+        "0:1",
+        "0.25:1",
+        "1:0.5"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p5.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p5.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "12473a3d3486c4c78a910512f3f53cf9ffc9bbd6bb3317ae038ba5bc0b9209cc",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "10f34fa5f4e0d52736b751bae4d60b72aaaa87d11994f1b9cca2bd17f86066cf",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "055c34bb027e7cab5d32dd35f3199330428ff3da8e1b4f7d081c6fdf4b590a9c"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "a54086ebbcafc88d5f3673b474e49ce4f8fc9fa001aa12b84e5256aa74cb0800"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "3a50f5497b57fccd0b18bb4e100e80fdfbb8f2f967ec2e78364de272c45e2347"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "ebafb1db746508b91face1d7f7466fccb3a12160c99e8334a88b7f19066c4846"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "ef9c245dd4168bcf1a4e43eaea18038eac18db8a2b6cfcff7214d15cd6171be9"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "Purl",
+      "sample_folder": "purl_s02",
+      "added_ratio": "1:0.75",
+      "training_ratios": [
+        "1:0.25",
+        "1:1",
+        "0:1",
+        "0.25:1",
+        "1:0.75"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\Purl\\BRT_15mm_Tri_Purl_S02\\Compiled_Data\\purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/purl_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "3551d0095ede00189cbd06aa52d910a1e6e69d2a66b7bc41260aa932f1a44007",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "363c8399acecb900d790878ee17f9e5cfb024ea72193b62c7199e5838b33ab0c",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "055c34bb027e7cab5d32dd35f3199330428ff3da8e1b4f7d081c6fdf4b590a9c"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "a54086ebbcafc88d5f3673b474e49ce4f8fc9fa001aa12b84e5256aa74cb0800"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "3a50f5497b57fccd0b18bb4e100e80fdfbb8f2f967ec2e78364de272c45e2347"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "ebafb1db746508b91face1d7f7466fccb3a12160c99e8334a88b7f19066c4846"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "e0b91c6f83c5a6adf2907a0c677819edcfb6376db23d8db9915a5a5468a2778c"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "SingleJersey",
+      "sample_folder": "singlejersey_s02",
+      "added_ratio": "0:1",
+      "training_ratios": [
+        "1:0.25",
+        "0.5:1",
+        "1:1",
+        "0.25:1",
+        "0:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\SingleJersey\\BRT_15mm_Tri_SJ_S02\\Compiled_Data\\singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "0a523973e68ec712b1d5db8cbeb03c8279630b1ab8eaa6f403df314b5bf8c2ac",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "8c4cb324b19cac48716237717d25a815d08e69713d16bd9250b2a915784578ee",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "82b682f0c387512130c4f0c3e507d68a6667521f29010493d05c88dd7685a7c7"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "afd46727854bd9b9d76a8be29ef920e930ae6f71ebeac176219090599e0f1bf5"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "2ec5a64183aa43c3a6f334e84b55190524a8a89d8934d44cb477c5abdaddad1e"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "9f5b90e96b84af3d5afc847ca0b91e0953917ebc497e3231f440de9c29028f50"
+        },
+        {
+          "ratio": "0:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0 to 1.dat",
+          "row_count": 61,
+          "sha256": "73112dfc13900aeb56c112fc145020fe6197423e303c13e4cc3ed37d438932bb"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "SingleJersey",
+      "sample_folder": "singlejersey_s02",
+      "added_ratio": "0.75:1",
+      "training_ratios": [
+        "1:0.25",
+        "0.5:1",
+        "1:1",
+        "0.25:1",
+        "0.75:1"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\SingleJersey\\BRT_15mm_Tri_SJ_S02\\Compiled_Data\\singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_0p75to1.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "dd4ccf7f1b70c1b19fb252df2203d6818bd121669e139f41d7f21460840ab94b",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "2a97f92c50c2a7ed7c1d906205cf7f0b7db2b66a43c70fee75a58e24b5473d74",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "82b682f0c387512130c4f0c3e507d68a6667521f29010493d05c88dd7685a7c7"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "afd46727854bd9b9d76a8be29ef920e930ae6f71ebeac176219090599e0f1bf5"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "2ec5a64183aa43c3a6f334e84b55190524a8a89d8934d44cb477c5abdaddad1e"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "9f5b90e96b84af3d5afc847ca0b91e0953917ebc497e3231f440de9c29028f50"
+        },
+        {
+          "ratio": "0.75:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p75 to 1.dat",
+          "row_count": 61,
+          "sha256": "3104f99900d61be3ff4e1a21cdae09cc56193e86df75f64b26bbe45f5ade0558"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "SingleJersey",
+      "sample_folder": "singlejersey_s02",
+      "added_ratio": "1:0",
+      "training_ratios": [
+        "1:0.25",
+        "0.5:1",
+        "1:1",
+        "0.25:1",
+        "1:0"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\SingleJersey\\BRT_15mm_Tri_SJ_S02\\Compiled_Data\\singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "row_count": 306,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "729b69cf15fb564f2144fbecb6e57ece2abbcc769e3df9d08b926b72b657bae7",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "26abb72135ed700e66bb38535d13425267c7ba588dc80bee974a3f666eb367af",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "82b682f0c387512130c4f0c3e507d68a6667521f29010493d05c88dd7685a7c7"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "afd46727854bd9b9d76a8be29ef920e930ae6f71ebeac176219090599e0f1bf5"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "2ec5a64183aa43c3a6f334e84b55190524a8a89d8934d44cb477c5abdaddad1e"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "9f5b90e96b84af3d5afc847ca0b91e0953917ebc497e3231f440de9c29028f50"
+        },
+        {
+          "ratio": "1:0",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0.dat",
+          "row_count": 62,
+          "sha256": "57da0724068ddeb177e5420711b7e4a0c45315d1b7a43f718f90806212f3a2e6"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "SingleJersey",
+      "sample_folder": "singlejersey_s02",
+      "added_ratio": "1:0.5",
+      "training_ratios": [
+        "1:0.25",
+        "0.5:1",
+        "1:1",
+        "0.25:1",
+        "1:0.5"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\SingleJersey\\BRT_15mm_Tri_SJ_S02\\Compiled_Data\\singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p5.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p5.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "d45db60564b76695cd08959c206fa087c445d9cda634edaa43d92bd27c4feb19",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "5347c1808e1ff1d348861c489d1a53177c935ecd724ca0d901ce4c2ed31bc9c6",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "82b682f0c387512130c4f0c3e507d68a6667521f29010493d05c88dd7685a7c7"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "afd46727854bd9b9d76a8be29ef920e930ae6f71ebeac176219090599e0f1bf5"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "2ec5a64183aa43c3a6f334e84b55190524a8a89d8934d44cb477c5abdaddad1e"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "9f5b90e96b84af3d5afc847ca0b91e0953917ebc497e3231f440de9c29028f50"
+        },
+        {
+          "ratio": "1:0.5",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p5.dat",
+          "row_count": 61,
+          "sha256": "5088dfd998369b438c902a27696008cda5004407f6cdf47026a8f38ed72ae2c9"
+        }
+      ],
+      "reuse": null
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "batch": "B05",
+      "step_number": 5,
+      "model": "SV_exp_polycon_mo",
+      "knit": "SingleJersey",
+      "sample_folder": "singlejersey_s02",
+      "added_ratio": "1:0.75",
+      "training_ratios": [
+        "1:0.25",
+        "0.5:1",
+        "1:1",
+        "0.25:1",
+        "1:0.75"
+      ],
+      "training_data": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\4_Experimental_Data\\Raw_data\\Tripoly\\SingleJersey\\BRT_15mm_Tri_SJ_S02\\Compiled_Data\\singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "training_data_project_relative": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/singlejersey_adaptive_greedy_v1_sv_exp_polycon_mo_b05_add_1to0p75.dat",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "case_file_project_relative": "2_Code/SSMCCF/Inputs/Separable_Solver/Cases/adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b05_add_1to0p75_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "row_count": 305,
+      "direct_hashes": {
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "aef4b48d56f1f44643e8d8b62236055ab96dfa62718e78763860ecfeb0fa5c38",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "semantic_fingerprint": "d9760776558339fb650418c63e29d19dd899344de0b218c7bdc0742f805705e4",
+      "sources": [
+        {
+          "ratio": "1:0.25",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p25.dat",
+          "row_count": 61,
+          "sha256": "82b682f0c387512130c4f0c3e507d68a6667521f29010493d05c88dd7685a7c7"
+        },
+        {
+          "ratio": "0.5:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p5 to 1.dat",
+          "row_count": 61,
+          "sha256": "afd46727854bd9b9d76a8be29ef920e930ae6f71ebeac176219090599e0f1bf5"
+        },
+        {
+          "ratio": "1:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 1.dat",
+          "row_count": 61,
+          "sha256": "2ec5a64183aa43c3a6f334e84b55190524a8a89d8934d44cb477c5abdaddad1e"
+        },
+        {
+          "ratio": "0.25:1",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/0p25 to 1.dat",
+          "row_count": 61,
+          "sha256": "9f5b90e96b84af3d5afc847ca0b91e0953917ebc497e3231f440de9c29028f50"
+        },
+        {
+          "ratio": "1:0.75",
+          "path": "4_Experimental_Data/Raw_data/Tripoly/SingleJersey/BRT_15mm_Tri_SJ_S02/Compiled_Data/1 to 0p75.dat",
+          "row_count": 61,
+          "sha256": "c31dec9b516d70ade9170c7df8e48ae2cba07e47ebfc2d9a747c11872861001c"
+        }
+      ],
+      "reuse": null
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "study_stage": "low_resolution_pilot",
+  "completed_at": "2026-08-26T20:47:08.094075+00:00",
+  "mask": 47,
+  "candidate_id": "M47",
+  "components": [
+    "linear_course",
+    "linear_wale",
+    "linear_coupling",
+    "nonlinear_course",
+    "nonlinear_coupling"
+  ],
+  "linear_parameters": [
+    "mu",
+    "mu2",
+    "mu3",
+    "K_1ani2",
+    "K_coup"
+  ],
+  "continuous_shapes": [
+    "gamma_1",
+    "b"
+  ],
+  "integer_shapes": [
+    "zeta"
+  ],
+  "effective_parameter_count": 8,
+  "parameters": {
+    "mu": 0.022710566674231047,
+    "mu2": 0.003543633054637818,
+    "K_1ani1": 0.0,
+    "beta_1": 82.07404561685058,
+    "K_1ani2": 0.001390705765646553,
+    "gamma_1": 100.0,
+    "K_coup": 0.41488081776886826,
+    "zeta": 6,
+    "C1": 1.0,
+    "C2": 1.0,
+    "theta1": 0.0,
+    "theta2": 90.0,
+    "mu3": 0.012003780464428664,
+    "a": 0.5,
+    "b": 0.5
+  },
+  "primary_cost": 0.0011342837734748192,
+  "equal_ratio_cost": 0.0011342837734748192,
+  "per_ratio_costs": {
+    "0.25:1": 0.0003803744646999012,
+    "0.5:1": 0.00053796043622776,
+    "0.75:1": 0.0006176277639046866,
+    "0:1": 0.0008039171989334674,
+    "1:0": 0.003006681191198588,
+    "1:0.25": 0.0009553578081490845,
+    "1:0.5": 0.0004104360311621027,
+    "1:0.75": 0.0005361538578825881,
+    "1:1": 0.0029600452091151936
+  },
+  "raw_cost": 1.2454435832753514,
+  "observation_count": 1098,
+  "profiled_evaluations": 60,
+  "elapsed_seconds": 1.201207699952647,
+  "linear_solver_backends": {
+    "bvls": 45,
+    "slsqp_soc": 15
+  },
+  "minimum_constraint_margins": {
+    "4*mu*mu2-mu3^2": -2.710505431213761e-20
+  },
+  "rejected_cone_evaluations": 0,
+  "active_bounds": {
+    "mu": 0,
+    "mu2": 0,
+    "mu3": 0,
+    "K_1ani2": 0,
+    "K_coup": 0
+  },
+  "effective_linear_upper_bounds": {
+    "mu": 0.05,
+    "mu2": 0.05,
+    "mu3": 0.05,
+    "K_1ani2": 0.1,
+    "K_coup": 1.3260793476946566
+  },
+  "design_rank": 5,
+  "design_condition_number": 674.8140472772767,
+  "direct_cost_difference": 0.0
+}

@@ -1,0 +1,16 @@
+Name	Guess	Type	Min	Max	Fix?
+mu	0.013819640159411471	float	0.0	0.05	False
+mu2	0.003422059405441892	float	0.0	0.05	False
+K_1ani1	0.0023693994348125275	float	0.0	0.5	False
+beta_1	58.738071713128925	float	0.1	1000.0	False
+K_1ani2	0.0013660225409516972	float	0.0	0.1	False
+gamma_1	100.84651403371062	float	0.1	1000.0	False
+K_coup	0.18650460353874349	float	0.0	0.47800705074402006	False
+zeta	5	int	2	15	False
+C1	1.0	float	1.0	3.0	True
+C2	1.0	float	1.0	3.0	True
+theta1	0.0	float	-15.0	15.0	True
+theta2	90.0	float	60.0	120.0	True
+mu3	0.01025858145422109	float	0.0	0.05	False
+a	0.5669529403789555	float	0.01	0.99	True
+b	0.43304705962104456	float	0.01	0.99	False

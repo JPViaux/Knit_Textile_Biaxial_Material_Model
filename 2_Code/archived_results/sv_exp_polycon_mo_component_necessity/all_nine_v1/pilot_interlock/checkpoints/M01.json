@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "study_stage": "low_resolution_pilot",
+  "completed_at": "2026-08-26T20:46:51.039903+00:00",
+  "mask": 1,
+  "candidate_id": "M01",
+  "components": [
+    "linear_course"
+  ],
+  "linear_parameters": [
+    "mu2"
+  ],
+  "continuous_shapes": [],
+  "integer_shapes": [],
+  "effective_parameter_count": 1,
+  "parameters": {
+    "mu": 0.0,
+    "mu2": 0.009411354764000348,
+    "K_1ani1": 0.0,
+    "beta_1": 82.07404561685058,
+    "K_1ani2": 0.0,
+    "gamma_1": 85.2381040175697,
+    "K_coup": 0.0,
+    "zeta": 6,
+    "C1": 1.0,
+    "C2": 1.0,
+    "theta1": 0.0,
+    "theta2": 90.0,
+    "mu3": 0.0,
+    "a": 0.5,
+    "b": 0.5
+  },
+  "primary_cost": 0.027819697900423518,
+  "equal_ratio_cost": 0.02781969790042352,
+  "per_ratio_costs": {
+    "0.25:1": 0.008004789701426528,
+    "0.5:1": 0.015219270708491434,
+    "0.75:1": 0.025886548554295105,
+    "0:1": 0.007913063258665363,
+    "1:0": 0.031952221284993844,
+    "1:0.25": 0.03622021180856748,
+    "1:0.5": 0.03570639874031084,
+    "1:0.75": 0.03684585839285667,
+    "1:1": 0.05262891865420441
+  },
+  "raw_cost": 30.54602829466502,
+  "observation_count": 1098,
+  "profiled_evaluations": 1,
+  "elapsed_seconds": 0.044739099917933345,
+  "linear_solver_backends": {
+    "bvls": 1,
+    "slsqp_soc": 0
+  },
+  "minimum_constraint_margins": {},
+  "rejected_cone_evaluations": 0,
+  "active_bounds": {
+    "mu2": 0
+  },
+  "effective_linear_upper_bounds": {
+    "mu2": 0.05
+  },
+  "design_rank": 1,
+  "design_condition_number": 1.0,
+  "direct_cost_difference": 7.105427357601002e-15
+}

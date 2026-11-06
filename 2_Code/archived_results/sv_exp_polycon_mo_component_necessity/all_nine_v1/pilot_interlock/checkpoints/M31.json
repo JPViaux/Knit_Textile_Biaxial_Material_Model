@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "study_stage": "low_resolution_pilot",
+  "completed_at": "2026-08-26T20:46:59.071606+00:00",
+  "mask": 31,
+  "candidate_id": "M31",
+  "components": [
+    "linear_course",
+    "linear_wale",
+    "linear_coupling",
+    "nonlinear_course",
+    "nonlinear_wale"
+  ],
+  "linear_parameters": [
+    "mu",
+    "mu2",
+    "mu3",
+    "K_1ani1",
+    "K_1ani2"
+  ],
+  "continuous_shapes": [
+    "beta_1",
+    "gamma_1"
+  ],
+  "integer_shapes": [],
+  "effective_parameter_count": 7,
+  "parameters": {
+    "mu": 0.020457976452784268,
+    "mu2": 0.005262149168061561,
+    "K_1ani1": 0.001303861775974545,
+    "beta_1": 1000.0,
+    "K_1ani2": 0.0010250433518256656,
+    "gamma_1": 100.0,
+    "K_coup": 0.0,
+    "zeta": 6,
+    "C1": 1.0,
+    "C2": 1.0,
+    "theta1": 0.0,
+    "theta2": 90.0,
+    "mu3": 0.013477602403993445,
+    "a": 0.5,
+    "b": 0.5
+  },
+  "primary_cost": 0.0014488564920464555,
+  "equal_ratio_cost": 0.0014488564920464558,
+  "per_ratio_costs": {
+    "0.25:1": 0.00023741818332920274,
+    "0.5:1": 0.0001924715623184627,
+    "0.75:1": 0.0004736539377940803,
+    "0:1": 0.0016425719129409102,
+    "1:0": 0.0032048680571490737,
+    "1:0.25": 0.0005525876207143909,
+    "1:0.5": 0.0003526490160145951,
+    "1:0.75": 0.0008971868798469923,
+    "1:1": 0.005486301258310394
+  },
+  "raw_cost": 1.5908444282670082,
+  "observation_count": 1098,
+  "profiled_evaluations": 25,
+  "elapsed_seconds": 0.701684599975124,
+  "linear_solver_backends": {
+    "bvls": 20,
+    "slsqp_soc": 5
+  },
+  "minimum_constraint_margins": {
+    "4*mu*mu2-mu3^2": 0.0
+  },
+  "rejected_cone_evaluations": 0,
+  "active_bounds": {
+    "mu": 0,
+    "mu2": 0,
+    "mu3": 0,
+    "K_1ani1": 0,
+    "K_1ani2": 0
+  },
+  "effective_linear_upper_bounds": {
+    "mu": 0.05,
+    "mu2": 0.05,
+    "mu3": 0.05,
+    "K_1ani1": 0.5,
+    "K_1ani2": 0.1
+  },
+  "design_rank": 5,
+  "design_condition_number": 11.448971394819122,
+  "direct_cost_difference": 4.440892098500626e-16
+}

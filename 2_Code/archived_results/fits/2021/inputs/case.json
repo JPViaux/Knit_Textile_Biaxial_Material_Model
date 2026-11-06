@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b02_add_1to0_sv_exp_polycon_mo_interlock_s06_raw",
+  "run_label": "Interlock SV_exp_polycon_mo greedy B02; add 1:0",
+  "workflow": "production",
+  "model": {
+    "model_id": "SV_exp_polycon_mo",
+    "separable_definition": "sv_exp_polycon_mo_v1",
+    "umat_source": "2_Code/SSMCCF/Material_Model/SV_exp_polycon_mo/SV_exp_polycon_mo.f"
+  },
+  "files": {
+    "material_parameters": "2_Code/SSMCCF/Inputs/Material_Parameters/SV_exp_polycon_mo/Interlock/faser_VS_full_raw_exp.dat",
+    "experimental_data": "4_Experimental_Data/Raw_data/Tripoly/Interlock/BRT_15mm_Tri_Int_S06/Compiled_Data/interlock_adaptive_greedy_v1_sv_exp_polycon_mo_b02_add_1to0.dat"
+  },
+  "experiment": {
+    "data_type": "raw",
+    "experimental_types": [
+      "H",
+      "P"
+    ],
+    "yarn_type": "Tripoly",
+    "knit": "Interlock",
+    "knit_token": "interlock",
+    "sample_folder": "BRT_15mm_Tri_Int_S06"
+  },
+  "umat": {
+    "types": [
+      "F",
+      "Sigma"
+    ]
+  },
+  "objective": {
+    "cost_type": "normalized",
+    "normalized_stress_floor_factor": 1.0,
+    "fit_axes": [
+      0,
+      1
+    ]
+  },
+  "parameter_policy": {
+    "bounds_source": "parameter_file",
+    "parameter_overrides": {}
+  },
+  "coupling": {
+    "bound_mode": "amplitude_equalized",
+    "amplitude_ceiling": 0.1,
+    "zeta_values": "parameter_file",
+    "selection_basis": "SV_exp_polycon_mo greedy B02; candidate addition 1:0; rank by fixed all-nine pooled R2"
+  },
+  "optimization": {
+    "grid_points_per_axis": 17,
+    "grid_points_by_parameter": {
+      "beta_1": 17,
+      "gamma_1": 17,
+      "b": 9
+    },
+    "refine_each_zeta": true,
+    "refinement_max_iterations": 100,
+    "parameter_tolerance": 1e-06,
+    "cost_tolerance": 1e-10
+  },
+  "outputs": {
+    "result_roles": [
+      "training_optimum"
+    ],
+    "snapshot_experimental_data": true
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "study_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1",
+  "created_at": "2026-08-26T07:32:17.820568+00:00",
+  "batch": "B04",
+  "definition_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\definitions\\B04.json",
+  "runner_state": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\B04_runner.json",
+  "candidate_count": 24,
+  "reused_count": 0,
+  "new_fit_count": 24,
+  "mappings": [
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2084,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2084\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2082,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2082\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2080,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2080\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p25_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2081,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p25_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2081\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2083,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2083\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "pair_id": "sv_exp_polycon_mo_interlock_s06",
+      "fit_code": 2088,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2088\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2085,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2085\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2089,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2089\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2086,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2086\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2087,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2087\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2091,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2091\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_rib_s03_raw",
+      "pair_id": "sv_exp_polycon_mo_rib_s03",
+      "fit_code": 2095,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_rib_s03_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2095\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2092,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2092\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p5to1_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2093,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p5to1_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2093\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2090,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2090\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2094,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2094\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2096,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2096\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_purl_s02",
+      "fit_code": 2097,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2097\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2099,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2099\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2100,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p25to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2100\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2098,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2098\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2101,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2101\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2102,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2102\\fit.json"
+    },
+    {
+      "candidate_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "pair_id": "sv_exp_polycon_mo_singlejersey_s02",
+      "fit_code": 2103,
+      "reused_fit": false,
+      "registry_case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b04_add_1to0p75_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "artifact_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\fits\\2103\\fit.json"
+    }
+  ]
+}

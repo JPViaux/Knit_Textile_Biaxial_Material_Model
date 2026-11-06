@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-26T08:21:27.488228+00:00",
+  "updated_at": "2026-08-26T08:40:18.318414+00:00",
+  "cores": 5,
+  "batch_group": "separable_batch_20260826_012127_484224",
+  "batch_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224",
+  "cases": [
+    {
+      "index": 1,
+      "name": "Interlock SV_exp_polycon_mo greedy B07; add 0:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "signature": "9494dcfd4bd7d8db9d9564b5db5894399a5cd87ae30f0dbd075f6234dd1cefb7",
+      "input_hashes": {
+        "case_config": "b654ae1d3b2a6e9c5887ce930ef8a0c2ca3e755d971bccc7729c65b2f5ba39a3",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "b58bd3c7981c7d59f6557b8ad71046aa939aab29defb342f681fa06855894d30",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_01",
+      "run_group": "separable_batch_20260826_012127_484224_01_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_01_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_interlock_s06_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2142
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Interlock SV_exp_polycon_mo greedy B07; add 0.25:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "signature": "5870f5ca6658ed638bb20acace9e83c7c0463f92993eedb9cbb952f70e5388bd",
+      "input_hashes": {
+        "case_config": "ecaebc903537711bf000b2307e8a82d474940f44c57a5b599d561b5dc7717397",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "1ac5b5014da129cdc468ac6f3e85e7d06bbdd75f9b9a480bcc7c2d0ffbcf90fe",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_02",
+      "run_group": "separable_batch_20260826_012127_484224_02_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_02_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_interlock_s06_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2144
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Interlock SV_exp_polycon_mo greedy B07; add 1:0.75",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw.json",
+      "signature": "ab24c236843eaf8bc54a283219c38238dc5e78e786321be9e16b702cc0cc4395",
+      "input_hashes": {
+        "case_config": "51aa7e8fa8d77cbdbb3c8ee1ee0f1975ce2c428fb2cae8d3344fbb96f6f5fe54",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "9b8e582fdc295497add2feaaf9d7710b808da1d4b6fd2756c5b97a847e88f9ad",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_03",
+      "run_group": "separable_batch_20260826_012127_484224_03_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_03_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_interlock_s06_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2143
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Rib SV_exp_polycon_mo greedy B07; add 0:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_rib_s03_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "signature": "3acd16a76092062f77c963f9203e1a3e647f276826e3f6c31a763aa23a69135b",
+      "input_hashes": {
+        "case_config": "819af4a9b28ada0fddf6b103d70f2e74cffc668eb7dd862efc3396852a58108d",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "908ee737829d7d0a15938da2eef05de7561f6950280e5e3fa0da20fb18c773ea",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_04",
+      "run_group": "separable_batch_20260826_012127_484224_04_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_rib_s03_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_04_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_rib_s03_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2140
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Rib SV_exp_polycon_mo greedy B07; add 0.25:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw.json",
+      "signature": "c153f369589e0bfd9af6a29b0ade4f7a795617c9fa3b9b090aeac67c5240ae4e",
+      "input_hashes": {
+        "case_config": "e03721a7105a4f5984a2f1f684b607249ab0d8951411bcfa70b116cbe7e21831",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "d764d9808486feb4e027793e2c23e0f94f308aab417f0de3d26bd8483df903d4",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_05",
+      "run_group": "separable_batch_20260826_012127_484224_05_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_05_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p25to1_sv_exp_polycon_mo_rib_s03_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2141
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Rib SV_exp_polycon_mo greedy B07; add 1:0.25",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw.json",
+      "signature": "ac635c8e81f752d07aaa22ee0fcd9ba036c7693908dd04950348b7f292c0ca9f",
+      "input_hashes": {
+        "case_config": "08902ca0f913731c73fbd497a82feeece3988e5479bb318cd18075524bc96343",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "66726ff95676ed9397d238e3e5480cd58c2fab3bb17b4fee973e230401c03bf6",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_06",
+      "run_group": "separable_batch_20260826_012127_484224_06_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_06_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p25_sv_exp_polycon_mo_rib_s03_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2145
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Purl SV_exp_polycon_mo greedy B07; add 0.75:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw.json",
+      "signature": "7b72f43b364127cbdd3f4f0a98e9a1e250814bcc5c99699a0fb8591e293bba60",
+      "input_hashes": {
+        "case_config": "923f7592bea5bb0be29aa0b19298a8fccce5fee0a2569cc7fd20f06a8c6a4d68",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "2b5817d3e4864d41eead08e1a609a82d0e54a94dd6f91713bd9f1444a332e3ee",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_07",
+      "run_group": "separable_batch_20260826_012127_484224_07_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_07_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_purl_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2146
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Purl SV_exp_polycon_mo greedy B07; add 1:0.5",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw.json",
+      "signature": "258b15bbbcaa108f415be20f6d4f4df848857e14fbb776b39292347c780f0096",
+      "input_hashes": {
+        "case_config": "832efb5ccf46d5ff39bc2129586195dc73e553e78bf463e06909fdd7e61f47ae",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "7013a5811a0d98b67235a4a6d819c3f9d4594aa7af473ab0fb28b7f23e9ed8a5",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_08",
+      "run_group": "separable_batch_20260826_012127_484224_08_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_08_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_purl_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2147
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Purl SV_exp_polycon_mo greedy B07; add 1:0.75",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw.json",
+      "signature": "af3feb5ebf2bf9dc5c93eef5ac3b19bc6c2f6ad5de1bd23200bfe83dba1d1d3e",
+      "input_hashes": {
+        "case_config": "d8160af569db4474a80a045ace4e408ebe3424e578faab5bc41467f04ce135fa",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "766efe2a20133eb7de74467e0ad008ac17b9475320da3766010e15ef974499a2",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_09",
+      "run_group": "separable_batch_20260826_012127_484224_09_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_09_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p75_sv_exp_polycon_mo_purl_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2149
+      ]
+    },
+    {
+      "index": 10,
+      "name": "SingleJersey SV_exp_polycon_mo greedy B07; add 0:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "signature": "0df9605f58013e2a4750a31ecdd486681c0be51ad8e12bdcd9de61095f36ef2c",
+      "input_hashes": {
+        "case_config": "a13e479671be42ff9faf21ebc0537bfc12106a10df225096f85743930fa0bc2c",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "9e0f732a516fdff1097d4c4f35dfb6f36e5a99d611a417a0ad26afc0484905d3",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_10",
+      "run_group": "separable_batch_20260826_012127_484224_10_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_10_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0to1_sv_exp_polycon_mo_singlejersey_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2150
+      ]
+    },
+    {
+      "index": 11,
+      "name": "SingleJersey SV_exp_polycon_mo greedy B07; add 0.75:1",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "signature": "f10e235990ab8381b08ff12d096de1afc24524725e5f123621bd821171bc7670",
+      "input_hashes": {
+        "case_config": "9b23b7986ac5121a4e065f5db2494f2119faee84656c0fa585c0d9a647f3ef4b",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "289d2ba7318ffd657541c5e9bfb6b0b935ba783712baee5631c7dff737f80d2c",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_11",
+      "run_group": "separable_batch_20260826_012127_484224_11_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_11_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_0p75to1_sv_exp_polycon_mo_singlejersey_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2148
+      ]
+    },
+    {
+      "index": 12,
+      "name": "SingleJersey SV_exp_polycon_mo greedy B07; add 1:0.5",
+      "case_id": "adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "case_file": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Inputs\\Separable_Solver\\Cases\\adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw.json",
+      "signature": "a35533ecaeea75543e0f2c6c207cd3793bb90989794dd46f4981c49af5160faa",
+      "input_hashes": {
+        "case_config": "550d57317c06f83cd8dc2b937193b4d6a4c7a6edb879e2c4d6b0c342eb95419b",
+        "material_parameters": "bd88daf864e2d466cee47e34a5d8f87c5c19af1dc7484296bca1e78de768bc35",
+        "experimental_data": "6cc8cf597aef4e89606e2e5d3018549f1cbc0ba41853adc9537aa191c66ba488",
+        "umat_source": "012042fc5ce8eff4fad6f2b5002fa87c50424c605f9baa8ef9b69d3a6c218c10"
+      },
+      "result_roles": [
+        "training_optimum"
+      ],
+      "worker_dir": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\adaptive_ratio_study_sv_exp_polycon_mo_v1\\states\\separable_solver_batch_runs\\20260826_012127_484224\\case_12",
+      "run_group": "separable_batch_20260826_012127_484224_12_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw",
+      "summary_path": "C:\\Users\\JP\\OneDrive - UC San Diego\\JP\\6. UMass\\3_Research\\1_Projects\\SSMCCF\\2_Code\\SSMCCF\\Outputs\\separable_solver_fits\\separable_batch_20260826_012127_484224_12_adaptive_ratio_greedy_sv_exp_polycon_mo_v1_b07_add_1to0p5_sv_exp_polycon_mo_singlejersey_s02_raw\\summary.json",
+      "status": "completed",
+      "return_code": 0,
+      "fit_codes": [
+        2151
+      ]
+    }
+  ]
+}

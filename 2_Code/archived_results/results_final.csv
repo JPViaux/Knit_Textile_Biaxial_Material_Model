@@ -1,0 +1,1 @@
+UMAT,Exp_Data,Param_File,Exp_Type,UMAT_Stress,UMAT_Strain,N_Sims,Temp,Temp_Change,N_MC_Steps,Exc_Thr,Stepsize,Change_Stepsize,N_Runs,Parameter,Ini_Guess,Min,Max,Fix?,Mean,Std_Dev,Opt_Value,Min_Cost,Avg_Cost,Std_Dev_Cost,Code,MSE,RMSE,MAE,Rel_Err,Cost_Type,Normalized_Stress_Floor_Factor,Model_ID,Exp_Data_Path,Exp_Data_Type,Yarn_Type,Knit,Knit_Token,Sample_Folder,Param_File_Path

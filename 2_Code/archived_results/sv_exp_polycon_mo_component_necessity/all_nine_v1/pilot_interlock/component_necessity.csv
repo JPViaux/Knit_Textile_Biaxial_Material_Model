@@ -1,0 +1,7 @@
+component,primary_classification,equal_ratio_classification,weighting_sensitive,best_without_cost,best_without_penalty_percent
+linear_course,Required,Required,False,0.002222418953565257,159.34175485858205
+linear_wale,Required,Required,False,0.0023606331637860663,175.4704491210003
+linear_coupling,Required,Required,False,0.0021769271632667165,154.0331604962294
+nonlinear_course,Required,Required,False,0.0015884845875196467,85.3657609571226
+nonlinear_wale,Required,Required,False,0.0011342837734748192,32.363496922425014
+nonlinear_coupling,Required,Required,False,0.0014488564920464555,69.07207553408936

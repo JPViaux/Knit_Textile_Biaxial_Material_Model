@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software/data package and the paper when its publication details become available."
+type: software
+title: "A hyperelastic material model for weft-knitted textiles under biaxial tension calibrated across four knit architectures"
+authors:
+  - family-names: Viaux
+    given-names: Juan Pablo
+  - family-names: MacKay
+    given-names: Caitlyn
+  - family-names: Uluturk
+    given-names: Ihsan
+  - family-names: Stapleton
+    given-names: Scott E.
+version: 1.0.0
+repository-code: "https://github.com/JPViaux/Knit_Textile_Biaxial_Material_Model"
+url: "https://github.com/JPViaux/Knit_Textile_Biaxial_Material_Model"
+abstract: "Constitutive model, biaxial data, calibration inputs and archived results for four weft-knitted textile architectures."
+keywords:
+  - knitted textiles
+  - hyperelasticity
+  - biaxial tension

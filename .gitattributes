@@ -1,0 +1,3 @@
+# Preserve exact bytes for scientific provenance and SHA-256 verification.
+# Example: CRLF archived input snapshots must not be normalized on Linux.
+* -text

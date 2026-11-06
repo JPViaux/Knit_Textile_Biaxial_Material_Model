@@ -1,0 +1,16 @@
+# Tested Windows Python/compiler pins; example: conda env create -f 2_Code/environment.yml.
+name: knit-paper
+channels:
+  - conda-forge
+  - defaults
+  - nodefaults
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - matplotlib=3.10.9
+  - openpyxl=3.1.5
+  - meson=1.10.1
+  - ninja=1.13.1
+  # Windows GNU toolchain; example: 15.2.0 avoids generic Flang activation flags.
+  - gfortran_win-64=15.2.0

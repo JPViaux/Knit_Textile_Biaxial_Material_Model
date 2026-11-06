@@ -1,0 +1,25 @@
+knit,component,primary_classification,equal_ratio_classification,weighting_sensitive,best_without_cost,best_without_penalty_percent
+Interlock,linear_course,Required,Required,False,0.001291477478002828,68.03664370976483
+Interlock,linear_wale,Required,Required,False,0.001259609621002551,63.89025492346536
+Interlock,linear_coupling,Required,Required,False,0.0012568846600419358,63.53570495890071
+Interlock,nonlinear_course,Required,Required,False,0.001458952242231694,89.8271106489345
+Interlock,nonlinear_wale,Required,Required,False,0.0011036922695641222,43.60354541588221
+Interlock,nonlinear_coupling,Required,Required,False,0.0014429361014193902,87.74321945212908
+Rib,linear_course,Required,Required,False,0.0019814633118995523,52.45685571116383
+Rib,linear_wale,Required,Required,False,0.0018625127833112275,43.30461783481792
+Rib,linear_coupling,Required,Required,False,0.0018597589915155567,43.09273682953767
+Rib,nonlinear_course,Required,Required,False,0.0015625421634169094,20.224413805718644
+Rib,nonlinear_wale,Required,Required,False,0.002926401194212298,125.1618397068857
+Rib,nonlinear_coupling,Optional/substitutable,Optional/substitutable,False,0.0013117374459663332,0.9271104489456672
+Purl,linear_course,Required,Required,False,0.0015231256077468315,21.918056696876718
+Purl,linear_wale,Required,Required,False,0.001526992106317774,22.22754922303014
+Purl,linear_coupling,Required,Required,False,0.0015231256077468276,21.91805669687641
+Purl,nonlinear_course,Optional/substitutable,Optional/substitutable,False,0.0012493027275965849,0.0
+Purl,nonlinear_wale,Optional/substitutable,Optional/substitutable,False,0.001249922663881305,0.049622583143871246
+Purl,nonlinear_coupling,Required,Required,False,0.0030489776310942554,144.05434837718593
+Single Jersey,linear_course,Required,Required,False,0.0015115858623134851,13.780837419180658
+Single Jersey,linear_wale,Required,Required,False,0.0015115858623134851,13.780837419180658
+Single Jersey,linear_coupling,Required,Required,False,0.0015115858623134851,13.780837419180658
+Single Jersey,nonlinear_course,Optional/substitutable,Optional/substitutable,False,0.0013285065364258542,2.673417043297377e-11
+Single Jersey,nonlinear_wale,Required,Required,False,0.0013796060111646944,3.846384894475907
+Single Jersey,nonlinear_coupling,Required,Required,False,0.003387423119592414,154.97978570031498

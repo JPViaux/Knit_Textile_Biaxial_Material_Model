@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "case_id": "sv_exp_polycon_mo_purl_s02_raw_all",
+  "run_label": "SV_exp_polycon_mo Purl S02 raw all-nine calibration",
+  "workflow": "production",
+  "model": {"model_id": "SV_exp_polycon_mo", "separable_definition": "sv_exp_polycon_mo_v1", "umat_source": "2_Code/1_Material_model/SV_exp_polycon_mo.f"},
+  "files": {"material_parameters": "2_Code/inputs/Material_Parameters/SV_exp_polycon_mo/Purl/faser_VS_full_raw_exp.dat", "experimental_data": "1_Experimental_data/Purl/BRT_15mm_Tri_Purl_S02/Compiled_Data/biax_exp_data_purl.dat"},
+  "experiment": {"data_type": "raw", "experimental_types": ["H", "P"], "yarn_type": "Tripoly", "knit": "Purl", "knit_token": "purl", "sample_folder": "BRT_15mm_Tri_Purl_S02"},
+  "umat": {"types": ["F", "Sigma"]},
+  "objective": {"cost_type": "normalized", "normalized_stress_floor_factor": 1.0, "fit_axes": [0, 1]},
+  "parameter_policy": {"bounds_source": "parameter_file", "parameter_overrides": {}},
+  "coupling": {"bound_mode": "amplitude_equalized", "amplitude_ceiling": 0.1, "zeta_values": "parameter_file", "selection_basis": "Matched SV_exp_polycon all-nine production bounds"},
+  "optimization": {"grid_points_per_axis": 17, "grid_points_by_parameter": {"beta_1": 17, "gamma_1": 17, "b": 9}, "refine_each_zeta": true, "refinement_max_iterations": 100, "parameter_tolerance": 1e-6, "cost_tolerance": 1e-10},
+  "outputs": {"result_roles": ["training_optimum"], "snapshot_experimental_data": true}
+}

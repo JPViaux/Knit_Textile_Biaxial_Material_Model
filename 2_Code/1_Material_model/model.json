@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "model_id": "SV_exp_polycon_mo",
+  "display_name": "Stapleton-Viaux exponential response with combined-max coupling",
+  "description": "SV_exp with the multiplicative coupling replaced by K_coup*<a*(I4-C1)+b*(I6-C2)>_+^zeta. All other terms are inherited unchanged.",
+  "parent_model_id": "SV_exp",
+  "fortran_source": "SV_exp_polycon_mo.f",
+  "analysis_family": "stapleton_viaux_exponential",
+  "parameters": [
+    {
+      "name": "mu",
+      "type": "float",
+      "units": "stress",
+      "description": "Linear coefficient for the first fiber family."
+    },
+    {
+      "name": "mu2",
+      "type": "float",
+      "units": "stress",
+      "description": "Linear coefficient for the second fiber family."
+    },
+    {
+      "name": "K_1ani1",
+      "type": "float",
+      "units": "stress",
+      "description": "I4 exponential-response coefficient for the first fiber family."
+    },
+    {
+      "name": "beta_1",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "I4 exponential-response rate parameter for the first fiber family."
+    },
+    {
+      "name": "K_1ani2",
+      "type": "float",
+      "units": "stress",
+      "description": "I6 exponential-response coefficient for the second fiber family."
+    },
+    {
+      "name": "gamma_1",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "I6 exponential-response rate parameter for the second fiber family."
+    },
+    {
+      "name": "K_coup",
+      "type": "float",
+      "units": "stress",
+      "description": "Amplitude of the convex combined-max coupling between the two fiber families."
+    },
+    {
+      "name": "zeta",
+      "type": "int",
+      "units": "dimensionless",
+      "description": "Exponent of the convex combined-max coupling."
+    },
+    {
+      "name": "C1",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "Activation threshold for the first fiber family."
+    },
+    {
+      "name": "C2",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "Activation threshold for the second fiber family."
+    },
+    {
+      "name": "theta1",
+      "type": "float",
+      "units": "degrees",
+      "description": "Reference angle of the first fiber family."
+    },
+    {
+      "name": "theta2",
+      "type": "float",
+      "units": "degrees",
+      "description": "Reference angle of the second fiber family."
+    },
+    {
+      "name": "mu3",
+      "type": "float",
+      "units": "stress",
+      "description": "Linear coupling coefficient between the two fiber families."
+    },
+    {
+      "name": "a",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "Weight of I4-C1 inside the combined coupling activation argument."
+    },
+    {
+      "name": "b",
+      "type": "float",
+      "units": "dimensionless",
+      "description": "Weight of I6-C2 inside the combined coupling activation argument."
+    }
+  ]
+}

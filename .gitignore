@@ -1,0 +1,16 @@
+# Regenerated outputs and local environments; example: 2_Code/generated/.
+**/__pycache__/
+*.py[cod]
+**/generated/
+**/builddir/
+**/.pytest_cache/
+**/.artifact_work/
+**/node_modules/
+**/.venv/
+*.dll
+*.so
+*.dylib
+*-DESKTOP-*
+.DS_Store
+Thumbs.db
+~$*

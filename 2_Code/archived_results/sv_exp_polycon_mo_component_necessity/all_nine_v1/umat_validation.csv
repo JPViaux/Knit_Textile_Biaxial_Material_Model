@@ -1,0 +1,157 @@
+scope,knit,candidate_id,difference,tolerance,passed
+profiled_vs_compiled_umat,Interlock,M01,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M02,1.0658141036401503e-14,1e-10,True
+profiled_vs_compiled_umat,Interlock,M03,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M07,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M08,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M09,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M10,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M11,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M15,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M16,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M17,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M18,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M19,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M23,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M24,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M25,2.6645352591003757e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M26,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M27,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M31,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M32,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M33,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M34,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M35,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M39,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M40,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M41,4.440892098500626e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M42,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M43,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M47,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M48,0.0,1e-10,True
+profiled_vs_compiled_umat,Interlock,M49,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M50,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Interlock,M51,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M55,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M56,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M57,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M58,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M59,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Interlock,M63,3.3306690738754696e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M01,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M02,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M03,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M07,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M08,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M09,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M10,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M11,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M15,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M16,2.842170943040401e-14,1e-10,True
+profiled_vs_compiled_umat,Rib,M17,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M18,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M19,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M23,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M24,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M25,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M26,1.3322676295501878e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M27,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M31,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M32,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M33,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M34,5.329070518200751e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M35,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M39,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M40,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M41,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M42,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M43,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M47,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M48,7.105427357601002e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M49,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M50,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Rib,M51,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M55,0.0,1e-10,True
+profiled_vs_compiled_umat,Rib,M56,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M57,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M58,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M59,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Rib,M63,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M01,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M02,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M03,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M07,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M08,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Purl,M09,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Purl,M10,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M11,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M15,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M16,1.0658141036401503e-14,1e-10,True
+profiled_vs_compiled_umat,Purl,M17,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M18,1.0658141036401503e-14,1e-10,True
+profiled_vs_compiled_umat,Purl,M19,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Purl,M23,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M24,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M25,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M26,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M27,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M31,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M32,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M33,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M34,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M35,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M39,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M40,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M41,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M42,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M43,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M47,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M48,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M49,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M50,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M51,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M55,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M56,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M57,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M58,0.0,1e-10,True
+profiled_vs_compiled_umat,Purl,M59,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Purl,M63,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M01,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M02,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M03,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M07,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M08,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M09,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M10,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M11,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M15,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M16,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M17,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M18,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M19,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M23,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M24,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M25,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M26,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M27,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M31,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M32,3.552713678800501e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M33,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M34,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M35,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M39,0.0,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M40,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M41,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M42,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M43,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M47,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M48,8.881784197001252e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M49,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M50,1.7763568394002505e-15,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M51,6.661338147750939e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M55,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M56,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M57,4.440892098500626e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M58,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M59,2.220446049250313e-16,1e-10,True
+profiled_vs_compiled_umat,Single Jersey,M63,4.440892098500626e-16,1e-10,True
