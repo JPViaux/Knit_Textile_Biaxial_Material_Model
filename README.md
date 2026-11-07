@@ -81,7 +81,7 @@ Measurements, constitutive equations and archived scientific results are preserv
 
 Only `SV_exp_polycon_mo` is registered and shipped. Legacy model tokens in filenames/helper names identify provenance or reusable support functions. Use the numbered entry points for the supported paper workflows. Fresh greedy campaign IDs end in `_release`; derived batches and catalogs are created under `generated/results/batches`. Published measurements and archived reports are read-only inputs. Default plotting entry points preserve archived inputs/reports.
 
-The publication metadata CSV under `2_Code/inputs/Experiment_Data` contains 40 records: nine ratios plus one conditioning record for each of the four specimens above. Conditioning is excluded from fitting. Selected Purl 0:1 has publication label S02 and original S01 identity in `source_sample_folder`, `source_step_folder` and `source_record_id`. The reader selects that original source record; the unused historical S02 0:1 record is omitted. Its preload, `bad_data` flag and `exclude` recommendation remain unchanged despite its use by the paper workflow. See the data guide for the complete source-label decision.
+The publication metadata CSV under `2_Code/inputs/Experiment_Data` contains 40 records: nine ratios plus one conditioning record for each of the four specimens above. Conditioning is excluded from fitting. 
 
 One specimen per architecture was used; held-out ratios assess within-specimen transfer and greedy selection is retrospective. Component percentages describe fixed-fit stress shares; subset refitting supplies conditional calibration support. These tests establish neither unrestricted three-dimensional stability nor parameter uniqueness.
 
